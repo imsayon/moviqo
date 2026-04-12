@@ -5,14 +5,18 @@
   "type": "module",
   "packageManager": "pnpm@10.18.3",
   "scripts": {
+    "predev": "pnpm exec kill-port 5000 5173",
     "dev": "concurrently \"pnpm --filter @moviqo/api dev\" \"pnpm --filter @moviqo/web dev\"",
+    "predev:api": "pnpm exec kill-port 5000",
     "dev:api": "pnpm --filter @moviqo/api dev",
+    "predev:web": "pnpm exec kill-port 5173",
     "dev:web": "pnpm --filter @moviqo/web dev",
     "build": "pnpm --filter @moviqo/web build",
     "start": "pnpm --filter @moviqo/api start",
     "lint": "pnpm --filter @moviqo/web lint"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "kill-port": "^2.0.1"
   }
 }

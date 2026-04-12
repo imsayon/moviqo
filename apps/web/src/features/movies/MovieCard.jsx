@@ -23,9 +23,11 @@ export function MovieCard({ movie }) {
           <span>{movie.duration}</span>
           <span>{movie.year}</span>
         </p>
-        <p className="card-price">From {formatCurrency(movie.price.standard)}</p>
+        <div className="card-bottom">
+          <p className="card-price">From {formatCurrency(movie.price.standard)}</p>
+          <span className="card-inline-chip">{movie.badgeLabel || "Book now"}</span>
+        </div>
       </div>
     </Link>
   );
 }
-
