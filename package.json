@@ -1,0 +1,18 @@
+{
+  "name": "moviqo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@10.18.3",
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter @moviqo/api dev\" \"pnpm --filter @moviqo/web dev\"",
+    "dev:api": "pnpm --filter @moviqo/api dev",
+    "dev:web": "pnpm --filter @moviqo/web dev",
+    "build": "pnpm --filter @moviqo/web build",
+    "start": "pnpm --filter @moviqo/api start",
+    "lint": "pnpm --filter @moviqo/web lint"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
