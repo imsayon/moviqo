@@ -43,3 +43,14 @@ export function getBooking(bookingId) {
   return request(`/bookings/${bookingId}`);
 }
 
+export function getMovieReviews(movieId) {
+  return request(`/movies/${movieId}/reviews`);
+}
+
+export function submitMovieReview(movieId, payload) {
+  return request(`/movies/${movieId}/reviews`, {
+    method: "POST",
+    body: JSON.stringify(payload)
+  });
+}
+

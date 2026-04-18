@@ -1,8 +1,11 @@
 import { Router } from "express";
 import { getMovieById, getMovieSummaries, getShowSelection, listGenres } from "@moviqo/shared";
 import { getBookedSeats } from "../bookings/booking.store.js";
+import { reviewsRouter } from "../reviews/reviews.routes.js";
 
 export const moviesRouter = Router();
+
+moviesRouter.use("/:movieId/reviews", reviewsRouter);
 
 moviesRouter.get("/", (request, response) => {
   const genre = request.query.genre ? String(request.query.genre) : "All";

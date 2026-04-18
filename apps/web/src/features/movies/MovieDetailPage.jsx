@@ -92,7 +92,9 @@ export function MovieDetailPage() {
 
           <h1>{movie.title}</h1>
           <div className="info-strip">
-            <span className="rating-pill">★ {movie.rating} / 10</span>
+            <Link to={`/movie/${movie.id}/reviews`} className="rating-link">
+              <span className="rating-pill">★ {movie.rating} / 10</span>
+            </Link>
             <span>Audience score</span>
           </div>
 
