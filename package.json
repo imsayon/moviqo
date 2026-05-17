@@ -5,18 +5,15 @@
   "type": "module",
   "packageManager": "pnpm@10.18.3",
   "scripts": {
-    "predev": "pnpm exec kill-port 5000 5173",
-    "dev": "concurrently \"pnpm --filter @moviqo/api dev\" \"pnpm --filter @moviqo/web dev\"",
-    "predev:api": "pnpm exec kill-port 5000",
-    "dev:api": "pnpm --filter @moviqo/api dev",
-    "predev:web": "pnpm exec kill-port 5173",
-    "dev:web": "pnpm --filter @moviqo/web dev",
-    "build": "pnpm --filter @moviqo/web build",
-    "start": "pnpm --filter @moviqo/api start",
-    "lint": "pnpm --filter @moviqo/web lint"
+    "dev": "concurrently -k -n server,client -c red,cyan \"pnpm --dir server dev\" \"pnpm --dir client dev\"",
+    "dev:server": "pnpm --dir server dev",
+    "dev:client": "pnpm --dir client dev",
+    "build": "pnpm --dir client build",
+    "start": "pnpm build && pnpm --dir server start",
+    "lint": "pnpm --dir client lint",
+    "clean": "rm -rf client/dist client/node_modules/.vite"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2",
-    "kill-port": "^2.0.1"
+    "concurrently": "^8.2.2"
   }
 }
