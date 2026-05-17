@@ -1,0 +1,136 @@
+{
+  "movie": {
+    "id": 17,
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "rating": 8.7,
+    "duration": "124 min",
+    "year": 1980,
+    "certificate": "UA",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": "classic",
+    "badgeLabel": "Classic",
+    "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader and a bounty hunter named Boba Fett all over the galaxy.",
+    "price": {
+      "standard": 300,
+      "premium": 440,
+      "recliner": 620
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+    "director": "Irvin Kershner",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams",
+    "stars": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher",
+      "Billy Dee Williams"
+    ],
+    "metaScore": 82,
+    "votes": 1159315,
+    "gross": "290,475,067",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "10:45 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

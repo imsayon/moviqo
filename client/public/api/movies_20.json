@@ -1,0 +1,131 @@
+{
+  "movie": {
+    "id": 20,
+    "title": "Gisaengchung",
+    "genre": "Comedy",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "rating": 8.6,
+    "duration": "132 min",
+    "year": 2019,
+    "certificate": "A",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Classic Screen",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    "price": {
+      "standard": 320,
+      "premium": 460,
+      "recliner": 640
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX500_.jpg",
+    "director": "Bong Joon Ho",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Kang-ho Song, Lee Sun-kyun, Cho Yeo-jeong, Choi Woo-sik",
+    "stars": [
+      "Kang-ho Song",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong",
+      "Choi Woo-sik"
+    ],
+    "metaScore": 96,
+    "votes": 552778,
+    "gross": "53,367,844",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "10:20 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "2:20 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "movie": {
+    "id": 92,
+    "title": "Andhadhun",
+    "genre": "Crime",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Music"
+    ],
+    "rating": 8.3,
+    "duration": "139 min",
+    "year": 2018,
+    "certificate": "UA",
+    "lang": "Indian Cinema",
+    "region": "India",
+    "formats": [
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": "restored",
+    "badgeLabel": "Restored",
+    "description": "A series of mysterious events change the life of a blind pianist, who must now report a crime that he should technically know nothing of.",
+    "price": {
+      "standard": 220,
+      "premium": 360,
+      "recliner": 540
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BZWZhMjhhZmYtOTIzOC00MGYzLWI1OGYtM2ZkN2IxNTI4ZWI3XkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_UX500_.jpg",
+    "director": "Sriram Raghavan",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Ayushmann Khurrana, Tabu, Radhika Apte, Anil Dhawan",
+    "stars": [
+      "Ayushmann Khurrana",
+      "Tabu",
+      "Radhika Apte",
+      "Anil Dhawan"
+    ],
+    "metaScore": null,
+    "votes": 71875,
+    "gross": "1,373,943",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "3:40 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

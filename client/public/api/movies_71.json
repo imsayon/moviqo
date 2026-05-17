@@ -1,0 +1,137 @@
+{
+  "movie": {
+    "id": 71,
+    "title": "Apocalypse Now",
+    "genre": "Drama",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "War"
+    ],
+    "rating": 8.4,
+    "duration": "147 min",
+    "year": 1979,
+    "certificate": "R",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "IMAX",
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
+    "price": {
+      "standard": 220,
+      "premium": 360,
+      "recliner": 540
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDdhODg0MjYtYzBiOS00ZmI5LWEwZGYtZDEyNDU4MmQyNzFkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+    "director": "Francis Ford Coppola",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Martin Sheen, Marlon Brando, Robert Duvall, Frederic Forrest",
+    "stars": [
+      "Martin Sheen",
+      "Marlon Brando",
+      "Robert Duvall",
+      "Frederic Forrest"
+    ],
+    "metaScore": 94,
+    "votes": 606398,
+    "gross": "83,471,511",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

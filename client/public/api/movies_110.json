@@ -1,0 +1,130 @@
+{
+  "movie": {
+    "id": 110,
+    "title": "Airlift",
+    "genre": "Drama",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "rating": 8,
+    "duration": "130 min",
+    "year": 2016,
+    "certificate": "UA",
+    "lang": "Indian Cinema",
+    "region": "India",
+    "formats": [
+      "Classic Screen",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "When Iraq invades Kuwait in August 1990, a callous Indian businessman becomes the spokesperson for more than 170,000 stranded countrymen.",
+    "price": {
+      "standard": 300,
+      "premium": 440,
+      "recliner": 620
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMGE1ZTkyOTMtMTdiZS00YzI2LTlmYWQtOTE5YWY0NWVlNjlmXkEyXkFqcGdeQXVyNjQ3ODkxMjE@._V1_UX500_.jpg",
+    "director": "Raja Menon",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Akshay Kumar, Nimrat Kaur, Kumud Mishra, Prakash Belawadi",
+    "stars": [
+      "Akshay Kumar",
+      "Nimrat Kaur",
+      "Kumud Mishra",
+      "Prakash Belawadi"
+    ],
+    "metaScore": null,
+    "votes": 52897,
+    "gross": null,
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "4DX",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "7:50 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

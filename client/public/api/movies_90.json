@@ -1,0 +1,130 @@
+{
+  "movie": {
+    "id": 90,
+    "title": "Taare Zameen Par",
+    "genre": "Drama",
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "rating": 8.4,
+    "duration": "165 min",
+    "year": 2007,
+    "certificate": "U",
+    "lang": "Indian Cinema",
+    "region": "India",
+    "formats": [
+      "Classic Screen",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "An eight-year-old boy is thought to be a lazy trouble-maker, until the new art teacher has the patience and compassion to discover the real problem behind his struggles in school.",
+    "price": {
+      "standard": 320,
+      "premium": 460,
+      "recliner": 640
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDhjZWViN2MtNzgxOS00NmI4LThiZDQtZDI3MzM4MDE4NTc0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX500_.jpg",
+    "director": "Aamir Khan",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Amole Gupte, Darsheel Safary, Aamir Khan, Tisca Chopra",
+    "stars": [
+      "Amole Gupte",
+      "Darsheel Safary",
+      "Aamir Khan",
+      "Tisca Chopra"
+    ],
+    "metaScore": null,
+    "votes": 168895,
+    "gross": "1,223,869",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "9:30 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "3:40 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "movie": {
+    "id": 42,
+    "title": "The Usual Suspects",
+    "genre": "Crime",
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "rating": 8.5,
+    "duration": "106 min",
+    "year": 1995,
+    "certificate": "A",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",
+    "price": {
+      "standard": 340,
+      "premium": 480,
+      "recliner": 660
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+    "director": "Bryan Singer",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Kevin Spacey, Gabriel Byrne, Chazz Palminteri, Stephen Baldwin",
+    "stars": [
+      "Kevin Spacey",
+      "Gabriel Byrne",
+      "Chazz Palminteri",
+      "Stephen Baldwin"
+    ],
+    "metaScore": 77,
+    "votes": 991208,
+    "gross": "23,341,568",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "4DX",
+            "soldOut": true
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "12:55 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

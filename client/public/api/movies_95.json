@@ -1,0 +1,136 @@
+{
+  "movie": {
+    "id": 95,
+    "title": "Queen",
+    "genre": "Adventure",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "rating": 8.2,
+    "duration": "146 min",
+    "year": 2013,
+    "certificate": "UA",
+    "lang": "Indian Cinema",
+    "region": "India",
+    "formats": [
+      "Classic Screen",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "A Delhi girl from a traditional family sets out on a solo honeymoon after her marriage gets cancelled.",
+    "price": {
+      "standard": 280,
+      "premium": 420,
+      "recliner": 600
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BNWYyOWRlOWItZWM5MS00ZjJkLWI0MTUtYTE3NTI5MDAwYjgyXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX500_.jpg",
+    "director": "Vikas Bahl",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Kangana Ranaut, Rajkummar Rao, Lisa Haydon, Jeffrey Ho",
+    "stars": [
+      "Kangana Ranaut",
+      "Rajkummar Rao",
+      "Lisa Haydon",
+      "Jeffrey Ho"
+    ],
+    "metaScore": null,
+    "votes": 60701,
+    "gross": "1,429,534",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Director Cut",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "4DX",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "8:15 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "movie": {
+    "id": 5,
+    "title": "12 Angry Men",
+    "genre": "Crime",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "rating": 9,
+    "duration": "96 min",
+    "year": 1957,
+    "certificate": "U",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Classic Screen",
+      "Standard"
+    ],
+    "badge": "top-rated",
+    "badgeLabel": "Top Rated",
+    "description": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence.",
+    "price": {
+      "standard": 340,
+      "premium": 480,
+      "recliner": 660
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX500_.jpg",
+    "director": "Sidney Lumet",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Henry Fonda, Lee J. Cobb, Martin Balsam, John Fiedler",
+    "stars": [
+      "Henry Fonda",
+      "Lee J. Cobb",
+      "Martin Balsam",
+      "John Fiedler"
+    ],
+    "metaScore": 96,
+    "votes": 689845,
+    "gross": "4,360,000",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "4DX",
+            "soldOut": true
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "9:30 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

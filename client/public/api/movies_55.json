@@ -1,0 +1,136 @@
+{
+  "movie": {
+    "id": 55,
+    "title": "Ayla: The Daughter of War",
+    "genre": "Biography",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "rating": 8.4,
+    "duration": "125 min",
+    "year": 2017,
+    "certificate": "UA",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Classic Screen",
+      "Standard"
+    ],
+    "badge": "festival",
+    "badgeLabel": "Festival",
+    "description": "In 1950, amid-st the ravages of the Korean War, Sergeant Süleyman stumbles upon a half-frozen little girl, with no parents and no help in sight. Frantic, scared and on the verge of death, ...                See full summary »",
+    "price": {
+      "standard": 320,
+      "premium": 460,
+      "recliner": 640
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BNWJhMDlmZGUtYzcxNS00NDRiLWIwNjktNDY1Mjg3ZjBkYzY0XkEyXkFqcGdeQXVyMTU4MjUwMjI@._V1_UX500_.jpg",
+    "director": "Can Ulkay",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Erdem Can, Çetin Tekindor, Ismail Hacioglu, Kyung-jin Lee",
+    "stars": [
+      "Erdem Can",
+      "Çetin Tekindor",
+      "Ismail Hacioglu",
+      "Kyung-jin Lee"
+    ],
+    "metaScore": null,
+    "votes": 34112,
+    "gross": null,
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "7:50 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "1:45 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

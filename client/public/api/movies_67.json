@@ -1,0 +1,136 @@
+{
+  "movie": {
+    "id": 67,
+    "title": "Mononoke-hime",
+    "genre": "Animation",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 8.4,
+    "duration": "134 min",
+    "year": 1997,
+    "certificate": "U",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime.",
+    "price": {
+      "standard": 280,
+      "premium": 420,
+      "recliner": 600
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGIzY2IzODQtNThmMi00ZDE4LWI5YzAtNzNlZTM1ZjYyYjUyXkEyXkFqcGdeQXVyODEzNjM5OTQ@._V1_UX500_.jpg",
+    "director": "Hayao Miyazaki",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Yôji Matsuda, Yuriko Ishida, Yûko Tanaka, Billy Crudup",
+    "stars": [
+      "Yôji Matsuda",
+      "Yuriko Ishida",
+      "Yûko Tanaka",
+      "Billy Crudup"
+    ],
+    "metaScore": 76,
+    "votes": 343171,
+    "gross": "2,375,308",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "IMAX",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Director Cut",
+            "soldOut": true
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

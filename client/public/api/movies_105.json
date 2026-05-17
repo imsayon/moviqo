@@ -1,0 +1,135 @@
+{
+  "movie": {
+    "id": 105,
+    "title": "Kahaani",
+    "genre": "Mystery",
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "rating": 8.1,
+    "duration": "122 min",
+    "year": 2012,
+    "certificate": "UA",
+    "lang": "Indian Cinema",
+    "region": "India",
+    "formats": [
+      "Classic Screen",
+      "Standard"
+    ],
+    "badge": "restored",
+    "badgeLabel": "Restored",
+    "description": "A pregnant woman's search for her missing husband takes her from London to Kolkata, but everyone she questions denies having ever met him.",
+    "price": {
+      "standard": 340,
+      "premium": 480,
+      "recliner": 660
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTQ1NDI0NzkyOF5BMl5BanBnXkFtZTcwNzAyNzE2Nw@@._V1_UX500_.jpg",
+    "director": "Sujoy Ghosh",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Vidya Balan, Parambrata Chattopadhyay, Indraneil Sengupta, Nawazuddin Siddiqui",
+    "stars": [
+      "Vidya Balan",
+      "Parambrata Chattopadhyay",
+      "Indraneil Sengupta",
+      "Nawazuddin Siddiqui"
+    ],
+    "metaScore": null,
+    "votes": 57806,
+    "gross": "1,035,953",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "2:20 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

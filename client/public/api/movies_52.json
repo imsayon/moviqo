@@ -1,0 +1,131 @@
+{
+  "movie": {
+    "id": 52,
+    "title": "Modern Times",
+    "genre": "Comedy",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "rating": 8.5,
+    "duration": "87 min",
+    "year": 1936,
+    "certificate": "G",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "The Tramp struggles to live in modern industrial society with the help of a young homeless woman.",
+    "price": {
+      "standard": 260,
+      "premium": 400,
+      "recliner": 580
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjJiZjMzYzktNjU0NS00OTkxLWEwYzItYzdhYWJjN2QzMTRlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+    "director": "Charles Chaplin",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Charles Chaplin, Paulette Goddard, Henry Bergman, Tiny Sandford",
+    "stars": [
+      "Charles Chaplin",
+      "Paulette Goddard",
+      "Henry Bergman",
+      "Tiny Sandford"
+    ],
+    "metaScore": 96,
+    "votes": 217881,
+    "gross": "163,245",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "IMAX",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "movie": {
+    "id": 39,
+    "title": "The Pianist",
+    "genre": "Biography",
+    "genres": [
+      "Biography",
+      "Drama",
+      "Music"
+    ],
+    "rating": 8.5,
+    "duration": "150 min",
+    "year": 2002,
+    "certificate": "R",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Director Cut",
+      "Dolby",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
+    "price": {
+      "standard": 280,
+      "premium": 420,
+      "recliner": 600
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+    "director": "Roman Polanski",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Adrien Brody, Thomas Kretschmann, Frank Finlay, Emilia Fox",
+    "stars": [
+      "Adrien Brody",
+      "Thomas Kretschmann",
+      "Frank Finlay",
+      "Emilia Fox"
+    ],
+    "metaScore": 85,
+    "votes": 729603,
+    "gross": "32,572,577",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "4DX",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

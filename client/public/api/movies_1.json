@@ -1,0 +1,135 @@
+{
+  "movie": {
+    "id": 1,
+    "title": "The Shawshank Redemption",
+    "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": 9.3,
+    "duration": "142 min",
+    "year": 1994,
+    "certificate": "A",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "IMAX",
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": "top-rated",
+    "badgeLabel": "Top Rated",
+    "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "price": {
+      "standard": 260,
+      "premium": 400,
+      "recliner": 580
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX500_.jpg",
+    "director": "Frank Darabont",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",
+    "stars": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton",
+      "William Sadler"
+    ],
+    "metaScore": 80,
+    "votes": 2343110,
+    "gross": "28,341,469",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

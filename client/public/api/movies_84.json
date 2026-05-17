@@ -1,0 +1,132 @@
+{
+  "movie": {
+    "id": 84,
+    "title": "Incendies",
+    "genre": "Drama",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "War"
+    ],
+    "rating": 8.3,
+    "duration": "131 min",
+    "year": 2010,
+    "certificate": "R",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Director Cut",
+      "Dolby",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "Twins journey to the Middle East to discover their family history and fulfill their mother's last wishes.",
+    "price": {
+      "standard": 340,
+      "premium": 480,
+      "recliner": 660
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMWE3MGYzZjktY2Q5Mi00Y2NiLWIyYWUtMmIyNzA3YmZlMGFhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX500_.jpg",
+    "director": "Denis Villeneuve",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Lubna Azabal, Mélissa Désormeaux-Poulin, Maxim Gaudette, Mustafa Kamel",
+    "stars": [
+      "Lubna Azabal",
+      "Mélissa Désormeaux-Poulin",
+      "Maxim Gaudette",
+      "Mustafa Kamel"
+    ],
+    "metaScore": 80,
+    "votes": 150023,
+    "gross": "6,857,096",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "7:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Director Cut",
+            "soldOut": true
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2861 @@
+{
+  "genres": [
+    "All",
+    "India",
+    "Global",
+    "Drama",
+    "Crime",
+    "Action",
+    "Adventure",
+    "Biography",
+    "History",
+    "Sci-Fi",
+    "Romance",
+    "Western",
+    "Fantasy",
+    "Comedy",
+    "Thriller",
+    "Animation",
+    "Family",
+    "War",
+    "Mystery",
+    "Music",
+    "Horror",
+    "Musical",
+    "Film-Noir",
+    "Sport"
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "genres": [
+        "Drama"
+      ],
+      "rating": 9.3,
+      "duration": "142 min",
+      "year": 1994,
+      "certificate": "A",
+      "region": "Global",
+      "badge": "top-rated",
+      "badgeLabel": "Top Rated",
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX500_.jpg",
+      "director": "Frank Darabont",
+      "cast": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 9.2,
+      "duration": "175 min",
+      "year": 1972,
+      "certificate": "A",
+      "region": "Global",
+      "badge": "top-rated",
+      "badgeLabel": "Top Rated",
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "Francis Ford Coppola",
+      "cast": "Marlon Brando, Al Pacino, James Caan, Diane Keaton",
+      "description": "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son."
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "rating": 9,
+      "duration": "152 min",
+      "year": 2008,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": "top-rated",
+      "badgeLabel": "Top Rated",
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX500_.jpg",
+      "director": "Christopher Nolan",
+      "cast": "Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine",
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+    },
+    {
+      "id": 4,
+      "title": "The Godfather: Part II",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 9,
+      "duration": "202 min",
+      "year": 1974,
+      "certificate": "A",
+      "region": "Global",
+      "badge": "top-rated",
+      "badgeLabel": "Top Rated",
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "Francis Ford Coppola",
+      "cast": "Al Pacino, Robert De Niro, Robert Duvall, Diane Keaton",
+      "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate."
+    },
+    {
+      "id": 5,
+      "title": "12 Angry Men",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 9,
+      "duration": "96 min",
+      "year": 1957,
+      "certificate": "U",
+      "region": "Global",
+      "badge": "top-rated",
+      "badgeLabel": "Top Rated",
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX500_.jpg",
+      "director": "Sidney Lumet",
+      "cast": "Henry Fonda, Lee J. Cobb, Martin Balsam, John Fiedler",
+      "description": "A jury holdout attempts to prevent a miscarriage of justice by forcing his colleagues to reconsider the evidence."
+    },
+    {
+      "id": 6,
+      "title": "The Lord of the Rings: The Return of the King",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "rating": 8.9,
+      "duration": "201 min",
+      "year": 2003,
+      "certificate": "U",
+      "region": "Global",
+      "badge": "top-rated",
+      "badgeLabel": "Top Rated",
+      "price": {
+        "standard": 360,
+        "premium": 500,
+        "recliner": 680
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "Peter Jackson",
+      "cast": "Elijah Wood, Viggo Mortensen, Ian McKellen, Orlando Bloom",
+      "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
+    },
+    {
+      "id": 7,
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.9,
+      "duration": "154 min",
+      "year": 1994,
+      "certificate": "A",
+      "region": "Global",
+      "badge": "top-rated",
+      "badgeLabel": "Top Rated",
+      "price": {
+        "standard": 380,
+        "premium": 520,
+        "recliner": 700
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "Quentin Tarantino",
+      "cast": "John Travolta, Uma Thurman, Samuel L. Jackson, Bruce Willis",
+      "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+    },
+    {
+      "id": 8,
+      "title": "Schindler's List",
+      "genre": "Biography",
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "rating": 8.9,
+      "duration": "195 min",
+      "year": 1993,
+      "certificate": "A",
+      "region": "Global",
+      "badge": "top-rated",
+      "badgeLabel": "Top Rated",
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Steven Spielberg",
+      "cast": "Liam Neeson, Ralph Fiennes, Ben Kingsley, Caroline Goodall",
+      "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+    },
+    {
+      "id": 9,
+      "title": "Inception",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "rating": 8.8,
+      "duration": "148 min",
+      "year": 2010,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": "top-rated",
+      "badgeLabel": "Top Rated",
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX500_.jpg",
+      "director": "Christopher Nolan",
+      "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Ken Watanabe",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
+    },
+    {
+      "id": 10,
+      "title": "Fight Club",
+      "genre": "Drama",
+      "genres": [
+        "Drama"
+      ],
+      "rating": 8.8,
+      "duration": "139 min",
+      "year": 1999,
+      "certificate": "A",
+      "region": "Global",
+      "badge": "top-rated",
+      "badgeLabel": "Top Rated",
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "David Fincher",
+      "cast": "Brad Pitt, Edward Norton, Meat Loaf, Zach Grenier",
+      "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more."
+    },
+    {
+      "id": 11,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "rating": 8.8,
+      "duration": "178 min",
+      "year": 2001,
+      "certificate": "U",
+      "region": "Global",
+      "badge": "classic",
+      "badgeLabel": "Classic",
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX500_.jpg",
+      "director": "Peter Jackson",
+      "cast": "Elijah Wood, Ian McKellen, Orlando Bloom, Sean Bean",
+      "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+    },
+    {
+      "id": 12,
+      "title": "Forrest Gump",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "rating": 8.8,
+      "duration": "142 min",
+      "year": 1994,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": "classic",
+      "badgeLabel": "Classic",
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX500_.jpg",
+      "director": "Robert Zemeckis",
+      "cast": "Tom Hanks, Robin Wright, Gary Sinise, Sally Field",
+      "description": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate and other historical events unfold through the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart."
+    },
+    {
+      "id": 13,
+      "title": "Il buono, il brutto, il cattivo",
+      "genre": "Western",
+      "genres": [
+        "Western"
+      ],
+      "rating": 8.8,
+      "duration": "161 min",
+      "year": 1966,
+      "certificate": "A",
+      "region": "Global",
+      "badge": "classic",
+      "badgeLabel": "Classic",
+      "price": {
+        "standard": 360,
+        "premium": 500,
+        "recliner": 680
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTQ5NDI3MTI4MF5BMl5BanBnXkFtZTgwNDQ4ODE5MDE@._V1_UX500_.jpg",
+      "director": "Sergio Leone",
+      "cast": "Clint Eastwood, Eli Wallach, Lee Van Cleef, Aldo Giuffrè",
+      "description": "A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."
+    },
+    {
+      "id": 14,
+      "title": "The Lord of the Rings: The Two Towers",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "rating": 8.7,
+      "duration": "179 min",
+      "year": 2002,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": "classic",
+      "badgeLabel": "Classic",
+      "price": {
+        "standard": 380,
+        "premium": 520,
+        "recliner": 700
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Peter Jackson",
+      "cast": "Elijah Wood, Ian McKellen, Viggo Mortensen, Orlando Bloom",
+      "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
+    },
+    {
+      "id": 15,
+      "title": "The Matrix",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "rating": 8.7,
+      "duration": "136 min",
+      "year": 1999,
+      "certificate": "A",
+      "region": "Global",
+      "badge": "classic",
+      "badgeLabel": "Classic",
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Lana Wachowski",
+      "cast": "Lilly Wachowski, Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+      "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."
+    },
+    {
+      "id": 16,
+      "title": "Goodfellas",
+      "genre": "Biography",
+      "genres": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.7,
+      "duration": "146 min",
+      "year": 1990,
+      "certificate": "A",
+      "region": "Global",
+      "badge": "classic",
+      "badgeLabel": "Classic",
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "Martin Scorsese",
+      "cast": "Robert De Niro, Ray Liotta, Joe Pesci, Lorraine Bracco",
+      "description": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate."
+    },
+    {
+      "id": 17,
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "rating": 8.7,
+      "duration": "124 min",
+      "year": 1980,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": "classic",
+      "badgeLabel": "Classic",
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "Irvin Kershner",
+      "cast": "Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams",
+      "description": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader and a bounty hunter named Boba Fett all over the galaxy."
+    },
+    {
+      "id": 18,
+      "title": "One Flew Over the Cuckoo's Nest",
+      "genre": "Drama",
+      "genres": [
+        "Drama"
+      ],
+      "rating": 8.7,
+      "duration": "133 min",
+      "year": 1975,
+      "certificate": "A",
+      "region": "Global",
+      "badge": "classic",
+      "badgeLabel": "Classic",
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX500_.jpg",
+      "director": "Milos Forman",
+      "cast": "Jack Nicholson, Louise Fletcher, Michael Berryman, Peter Brocco",
+      "description": "A criminal pleads insanity and is admitted to a mental institution, where he rebels against the oppressive nurse and rallies up the scared patients."
+    },
+    {
+      "id": 19,
+      "title": "Hamilton",
+      "genre": "Biography",
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "rating": 8.6,
+      "duration": "160 min",
+      "year": 2020,
+      "certificate": "PG-13",
+      "region": "Global",
+      "badge": "festival",
+      "badgeLabel": "Festival",
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjViNWRjYWEtZTI0NC00N2E3LTk0NGQtMjY4NTM3OGNkZjY0XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_UX500_.jpg",
+      "director": "Thomas Kail",
+      "cast": "Lin-Manuel Miranda, Phillipa Soo, Leslie Odom Jr., Renée Elise Goldsberry",
+      "description": "The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast."
+    },
+    {
+      "id": 20,
+      "title": "Gisaengchung",
+      "genre": "Comedy",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Thriller"
+      ],
+      "rating": 8.6,
+      "duration": "132 min",
+      "year": 2019,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX500_.jpg",
+      "director": "Bong Joon Ho",
+      "cast": "Kang-ho Song, Lee Sun-kyun, Cho Yeo-jeong, Choi Woo-sik",
+      "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
+    },
+    {
+      "id": 21,
+      "title": "Soorarai Pottru",
+      "genre": "Drama",
+      "genres": [
+        "Drama"
+      ],
+      "rating": 8.6,
+      "duration": "153 min",
+      "year": 2020,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTc2ZTlmYmItMDBhYS00YmMzLWI4ZjAtMTI5YTBjOTFiMGEwXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX500_.jpg",
+      "director": "Sudha Kongara",
+      "cast": "Suriya, Madhavan, Paresh Rawal, Aparna Balamurali",
+      "description": "Nedumaaran Rajangam \"Maara\" sets out to make the common man fly and in the process takes on the world's most capital intensive industry and several enemies who stand in his way."
+    },
+    {
+      "id": 22,
+      "title": "Interstellar",
+      "genre": "Adventure",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Sci-Fi"
+      ],
+      "rating": 8.6,
+      "duration": "169 min",
+      "year": 2014,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 220,
+        "premium": 360,
+        "recliner": 540
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX500_.jpg",
+      "director": "Christopher Nolan",
+      "cast": "Matthew McConaughey, Anne Hathaway, Jessica Chastain, Mackenzie Foy",
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+    },
+    {
+      "id": 23,
+      "title": "Cidade de Deus",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.6,
+      "duration": "130 min",
+      "year": 2002,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 240,
+        "premium": 380,
+        "recliner": 560
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTMwYjc5ZmItYTFjZC00ZGQ3LTlkNTMtMjZiNTZlMWQzNzI5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "Fernando Meirelles",
+      "cast": "Kátia Lund, Alexandre Rodrigues, Leandro Firmino, Matheus Nachtergaele",
+      "description": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin."
+    },
+    {
+      "id": 24,
+      "title": "Sen to Chihiro no kamikakushi",
+      "genre": "Animation",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "rating": 8.6,
+      "duration": "125 min",
+      "year": 2001,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX500_.jpg",
+      "director": "Hayao Miyazaki",
+      "cast": "Daveigh Chase, Suzanne Pleshette, Miyu Irino, Rumi Hiiragi",
+      "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts."
+    },
+    {
+      "id": 25,
+      "title": "Saving Private Ryan",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "rating": 8.6,
+      "duration": "169 min",
+      "year": 1998,
+      "certificate": "R",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX500_.jpg",
+      "director": "Steven Spielberg",
+      "cast": "Tom Hanks, Matt Damon, Tom Sizemore, Edward Burns",
+      "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action."
+    },
+    {
+      "id": 26,
+      "title": "The Green Mile",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Fantasy"
+      ],
+      "rating": 8.6,
+      "duration": "189 min",
+      "year": 1999,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "director": "Frank Darabont",
+      "cast": "Tom Hanks, Michael Clarke Duncan, David Morse, Bonnie Hunt",
+      "description": "The lives of guards on Death Row are affected by one of their charges: a black man accused of child murder and rape, yet who has a mysterious gift."
+    },
+    {
+      "id": 27,
+      "title": "La vita è bella",
+      "genre": "Comedy",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "rating": 8.6,
+      "duration": "116 min",
+      "year": 1997,
+      "certificate": "U",
+      "region": "Global",
+      "badge": "restored",
+      "badgeLabel": "Restored",
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX500_.jpg",
+      "director": "Roberto Benigni",
+      "cast": "Roberto Benigni, Nicoletta Braschi, Giorgio Cantarini, Giustino Durano",
+      "description": "When an open-minded Jewish librarian and his son become victims of the Holocaust, he uses a perfect mixture of will, humor, and imagination to protect his son from the dangers around their camp."
+    },
+    {
+      "id": 28,
+      "title": "Se7en",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "rating": 8.6,
+      "duration": "127 min",
+      "year": 1995,
+      "certificate": "A",
+      "region": "Global",
+      "badge": "festival",
+      "badgeLabel": "Festival",
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "David Fincher",
+      "cast": "Morgan Freeman, Brad Pitt, Kevin Spacey, Andrew Kevin Walker",
+      "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives."
+    },
+    {
+      "id": 29,
+      "title": "The Silence of the Lambs",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "rating": 8.6,
+      "duration": "118 min",
+      "year": 1991,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 220,
+        "premium": 360,
+        "recliner": 540
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Jonathan Demme",
+      "cast": "Jodie Foster, Anthony Hopkins, Lawrence A. Bonney, Kasi Lemmons",
+      "description": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer, a madman who skins his victims."
+    },
+    {
+      "id": 30,
+      "title": "Star Wars",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "rating": 8.6,
+      "duration": "121 min",
+      "year": 1977,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 240,
+        "premium": 380,
+        "recliner": 560
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "George Lucas",
+      "cast": "Mark Hamill, Harrison Ford, Carrie Fisher, Alec Guinness",
+      "description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader."
+    },
+    {
+      "id": 31,
+      "title": "Seppuku",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Drama",
+        "Mystery"
+      ],
+      "rating": 8.6,
+      "duration": "133 min",
+      "year": 1962,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjBmYTQ1NjItZWU5MS00YjI0LTg2OTYtYmFkN2JkMmNiNWVkXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_UX500_.jpg",
+      "director": "Masaki Kobayashi",
+      "cast": "Tatsuya Nakadai, Akira Ishihama, Shima Iwashita, Tetsurô Tanba",
+      "description": "When a ronin requesting seppuku at a feudal lord's palace is told of the brutal suicide of another ronin who previously visited, he reveals how their pasts are intertwined - and in doing so challenges the clan's integrity."
+    },
+    {
+      "id": 32,
+      "title": "Shichinin no samurai",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "rating": 8.6,
+      "duration": "207 min",
+      "year": 1954,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWE4ZDdhNmMtNzE5ZC00NzExLTlhNGMtY2ZhYjYzODEzODA1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX500_.jpg",
+      "director": "Akira Kurosawa",
+      "cast": "Toshirô Mifune, Takashi Shimura, Keiko Tsushima, Yukiko Shimazaki",
+      "description": "A poor village under attack by bandits recruits seven unemployed samurai to help them defend themselves."
+    },
+    {
+      "id": 33,
+      "title": "It's a Wonderful Life",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Family",
+        "Fantasy"
+      ],
+      "rating": 8.6,
+      "duration": "130 min",
+      "year": 1946,
+      "certificate": "PG",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjc4NDZhZWMtNGEzYS00ZWU2LThlM2ItNTA0YzQ0OTExMTE2XkEyXkFqcGdeQXVyNjUwMzI2NzU@._V1_UX500_.jpg",
+      "director": "Frank Capra",
+      "cast": "James Stewart, Donna Reed, Lionel Barrymore, Thomas Mitchell",
+      "description": "An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed."
+    },
+    {
+      "id": 34,
+      "title": "Joker",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "rating": 8.5,
+      "duration": "122 min",
+      "year": 2019,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX500_.jpg",
+      "director": "Todd Phillips",
+      "cast": "Joaquin Phoenix, Robert De Niro, Zazie Beetz, Frances Conroy",
+      "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker."
+    },
+    {
+      "id": 35,
+      "title": "Whiplash",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Music"
+      ],
+      "rating": 8.5,
+      "duration": "106 min",
+      "year": 2014,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX500_.jpg",
+      "director": "Damien Chazelle",
+      "cast": "Miles Teller, J.K. Simmons, Melissa Benoist, Paul Reiser",
+      "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential."
+    },
+    {
+      "id": 36,
+      "title": "The Intouchables",
+      "genre": "Biography",
+      "genres": [
+        "Biography",
+        "Comedy",
+        "Drama"
+      ],
+      "rating": 8.5,
+      "duration": "112 min",
+      "year": 2011,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 220,
+        "premium": 360,
+        "recliner": 540
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_UX500_.jpg",
+      "director": "Olivier Nakache",
+      "cast": "Éric Toledano, François Cluzet, Omar Sy, Anne Le Ny",
+      "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver."
+    },
+    {
+      "id": 37,
+      "title": "The Prestige",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Sci-Fi"
+      ],
+      "rating": 8.5,
+      "duration": "130 min",
+      "year": 2006,
+      "certificate": "U",
+      "region": "Global",
+      "badge": "festival",
+      "badgeLabel": "Festival",
+      "price": {
+        "standard": 240,
+        "premium": 380,
+        "recliner": 560
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "director": "Christopher Nolan",
+      "cast": "Christian Bale, Hugh Jackman, Scarlett Johansson, Michael Caine",
+      "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other."
+    },
+    {
+      "id": 38,
+      "title": "The Departed",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "rating": 8.5,
+      "duration": "151 min",
+      "year": 2006,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "director": "Martin Scorsese",
+      "cast": "Leonardo DiCaprio, Matt Damon, Jack Nicholson, Mark Wahlberg",
+      "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston."
+    },
+    {
+      "id": 39,
+      "title": "The Pianist",
+      "genre": "Biography",
+      "genres": [
+        "Biography",
+        "Drama",
+        "Music"
+      ],
+      "rating": 8.5,
+      "duration": "150 min",
+      "year": 2002,
+      "certificate": "R",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BOWRiZDIxZjktMTA1NC00MDQ2LWEzMjUtMTliZmY3NjQ3ODJiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Roman Polanski",
+      "cast": "Adrien Brody, Thomas Kretschmann, Frank Finlay, Emilia Fox",
+      "description": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II."
+    },
+    {
+      "id": 40,
+      "title": "Gladiator",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "rating": 8.5,
+      "duration": "155 min",
+      "year": 2000,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": "restored",
+      "badgeLabel": "Restored",
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Ridley Scott",
+      "cast": "Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed",
+      "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
+    },
+    {
+      "id": 41,
+      "title": "American History X",
+      "genre": "Drama",
+      "genres": [
+        "Drama"
+      ],
+      "rating": 8.5,
+      "duration": "119 min",
+      "year": 1998,
+      "certificate": "R",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjA0MTM4MTQtNzY5MC00NzY3LWI1ZTgtYzcxMjkyMzU4MDZiXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX500_.jpg",
+      "director": "Tony Kaye",
+      "cast": "Edward Norton, Edward Furlong, Beverly D'Angelo, Jennifer Lien",
+      "description": "A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path that he did."
+    },
+    {
+      "id": 42,
+      "title": "The Usual Suspects",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Thriller"
+      ],
+      "rating": 8.5,
+      "duration": "106 min",
+      "year": 1995,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTViNjMyNmUtNDFkNC00ZDRlLThmMDUtZDU2YWE4NGI2ZjVmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Bryan Singer",
+      "cast": "Kevin Spacey, Gabriel Byrne, Chazz Palminteri, Stephen Baldwin",
+      "description": "A sole survivor tells of the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup."
+    },
+    {
+      "id": 43,
+      "title": "Léon",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.5,
+      "duration": "110 min",
+      "year": 1994,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 220,
+        "premium": 360,
+        "recliner": 540
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BODllNWE0MmEtYjUwZi00ZjY3LThmNmQtZjZlMjI2YTZjYmQ0XkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_UX500_.jpg",
+      "director": "Luc Besson",
+      "cast": "Jean Reno, Gary Oldman, Natalie Portman, Danny Aiello",
+      "description": "Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade."
+    },
+    {
+      "id": 44,
+      "title": "The Lion King",
+      "genre": "Animation",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Drama"
+      ],
+      "rating": 8.5,
+      "duration": "88 min",
+      "year": 1994,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 240,
+        "premium": 380,
+        "recliner": 560
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_UX500_.jpg",
+      "director": "Roger Allers",
+      "cast": "Rob Minkoff, Matthew Broderick, Jeremy Irons, James Earl Jones",
+      "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself."
+    },
+    {
+      "id": 45,
+      "title": "Terminator 2: Judgment Day",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "rating": 8.5,
+      "duration": "137 min",
+      "year": 1991,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "James Cameron",
+      "cast": "Arnold Schwarzenegger, Linda Hamilton, Edward Furlong, Robert Patrick",
+      "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg."
+    },
+    {
+      "id": 46,
+      "title": "Nuovo Cinema Paradiso",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "rating": 8.5,
+      "duration": "155 min",
+      "year": 1988,
+      "certificate": "U",
+      "region": "Global",
+      "badge": "festival",
+      "badgeLabel": "Festival",
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2FhYjEyYmYtMDI1Yy00YTdlLWI2NWQtYmEzNzAxOGY1NjY2XkEyXkFqcGdeQXVyNTA3NTIyNDg@._V1_UX500_.jpg",
+      "director": "Giuseppe Tornatore",
+      "cast": "Philippe Noiret, Enzo Cannavale, Antonella Attili, Isa Danieli",
+      "description": "A filmmaker recalls his childhood when falling in love with the pictures at the cinema of his home village and forms a deep friendship with the cinema's projectionist."
+    },
+    {
+      "id": 47,
+      "title": "Hotaru no haka",
+      "genre": "Animation",
+      "genres": [
+        "Animation",
+        "Drama",
+        "War"
+      ],
+      "rating": 8.5,
+      "duration": "89 min",
+      "year": 1988,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX500_.jpg",
+      "director": "Isao Takahata",
+      "cast": "Tsutomu Tatsumi, Ayano Shiraishi, Akemi Yamaguchi, Yoshiko Shinohara",
+      "description": "A young boy and his little sister struggle to survive in Japan during World War II."
+    },
+    {
+      "id": 48,
+      "title": "Back to the Future",
+      "genre": "Adventure",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Sci-Fi"
+      ],
+      "rating": 8.5,
+      "duration": "116 min",
+      "year": 1985,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX500_.jpg",
+      "director": "Robert Zemeckis",
+      "cast": "Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover",
+      "description": "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown."
+    },
+    {
+      "id": 49,
+      "title": "Once Upon a Time in the West",
+      "genre": "Western",
+      "genres": [
+        "Western"
+      ],
+      "rating": 8.5,
+      "duration": "165 min",
+      "year": 1968,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BZGI5MjBmYzYtMzJhZi00NGI1LTk3MzItYjBjMzcxM2U3MDdiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "Sergio Leone",
+      "cast": "Henry Fonda, Charles Bronson, Claudia Cardinale, Jason Robards",
+      "description": "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad."
+    },
+    {
+      "id": 50,
+      "title": "Psycho",
+      "genre": "Horror",
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "rating": 8.5,
+      "duration": "109 min",
+      "year": 1960,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 220,
+        "premium": 360,
+        "recliner": 540
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTQwNDM1YzItNDAxZC00NWY2LTk0M2UtNDIwNWI5OGUyNWUxXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "Alfred Hitchcock",
+      "cast": "Anthony Perkins, Janet Leigh, Vera Miles, John Gavin",
+      "description": "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother."
+    },
+    {
+      "id": 51,
+      "title": "Casablanca",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Romance",
+        "War"
+      ],
+      "rating": 8.5,
+      "duration": "102 min",
+      "year": 1942,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 240,
+        "premium": 380,
+        "recliner": 560
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX500_.jpg",
+      "director": "Michael Curtiz",
+      "cast": "Humphrey Bogart, Ingrid Bergman, Paul Henreid, Claude Rains",
+      "description": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco."
+    },
+    {
+      "id": 52,
+      "title": "Modern Times",
+      "genre": "Comedy",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Family"
+      ],
+      "rating": 8.5,
+      "duration": "87 min",
+      "year": 1936,
+      "certificate": "G",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjJiZjMzYzktNjU0NS00OTkxLWEwYzItYzdhYWJjN2QzMTRlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Charles Chaplin",
+      "cast": "Charles Chaplin, Paulette Goddard, Henry Bergman, Tiny Sandford",
+      "description": "The Tramp struggles to live in modern industrial society with the help of a young homeless woman."
+    },
+    {
+      "id": 53,
+      "title": "City Lights",
+      "genre": "Comedy",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "rating": 8.5,
+      "duration": "87 min",
+      "year": 1931,
+      "certificate": "G",
+      "region": "Global",
+      "badge": "restored",
+      "badgeLabel": "Restored",
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2I4MmM1N2EtM2YzOS00OWUzLTkzYzctNDc5NDg2N2IyODJmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "Charles Chaplin",
+      "cast": "Charles Chaplin, Virginia Cherrill, Florence Lee, Harry Myers",
+      "description": "With the aid of a wealthy erratic tippler, a dewy-eyed tramp who has fallen in love with a sightless flower girl accumulates money to be able to help her medically."
+    },
+    {
+      "id": 54,
+      "title": "Capharnaüm",
+      "genre": "Drama",
+      "genres": [
+        "Drama"
+      ],
+      "rating": 8.4,
+      "duration": "126 min",
+      "year": 2018,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmExNzU2ZWMtYzUwYi00YmM2LTkxZTQtNmVhNjY0NTMyMWI2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX500_.jpg",
+      "director": "Nadine Labaki",
+      "cast": "Zain Al Rafeea, Yordanos Shiferaw, Boluwatife Treasure Bankole, Kawsar Al Haddad",
+      "description": "While serving a five-year sentence for a violent crime, a 12-year-old boy sues his parents for neglect."
+    },
+    {
+      "id": 55,
+      "title": "Ayla: The Daughter of War",
+      "genre": "Biography",
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "rating": 8.4,
+      "duration": "125 min",
+      "year": 2017,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": "festival",
+      "badgeLabel": "Festival",
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNWJhMDlmZGUtYzcxNS00NDRiLWIwNjktNDY1Mjg3ZjBkYzY0XkEyXkFqcGdeQXVyMTU4MjUwMjI@._V1_UX500_.jpg",
+      "director": "Can Ulkay",
+      "cast": "Erdem Can, Çetin Tekindor, Ismail Hacioglu, Kyung-jin Lee",
+      "description": "In 1950, amid-st the ravages of the Korean War, Sergeant Süleyman stumbles upon a half-frozen little girl, with no parents and no help in sight. Frantic, scared and on the verge of death, ...                See full summary »"
+    },
+    {
+      "id": 56,
+      "title": "Kimi no na wa.",
+      "genre": "Animation",
+      "genres": [
+        "Animation",
+        "Drama",
+        "Fantasy"
+      ],
+      "rating": 8.4,
+      "duration": "106 min",
+      "year": 2016,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_UX500_.jpg",
+      "director": "Makoto Shinkai",
+      "cast": "Ryûnosuke Kamiki, Mone Kamishiraishi, Ryô Narita, Aoi Yûki",
+      "description": "Two strangers find themselves linked in a bizarre way. When a connection forms, will distance be the only thing to keep them apart?"
+    },
+    {
+      "id": 57,
+      "title": "Spider-Man: Into the Spider-Verse",
+      "genre": "Animation",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "rating": 8.4,
+      "duration": "117 min",
+      "year": 2018,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 220,
+        "premium": 360,
+        "recliner": 540
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_UX500_.jpg",
+      "director": "Bob Persichetti",
+      "cast": "Peter Ramsey, Rodney Rothman, Shameik Moore, Jake Johnson",
+      "description": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities."
+    },
+    {
+      "id": 58,
+      "title": "Avengers: Endgame",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "rating": 8.4,
+      "duration": "181 min",
+      "year": 2019,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 240,
+        "premium": 380,
+        "recliner": 560
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX500_.jpg",
+      "director": "Anthony Russo",
+      "cast": "Joe Russo, Robert Downey Jr., Chris Evans, Mark Ruffalo",
+      "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
+    },
+    {
+      "id": 59,
+      "title": "Avengers: Infinity War",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "rating": 8.4,
+      "duration": "149 min",
+      "year": 2018,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UX500_.jpg",
+      "director": "Anthony Russo",
+      "cast": "Joe Russo, Robert Downey Jr., Chris Hemsworth, Mark Ruffalo",
+      "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+    },
+    {
+      "id": 60,
+      "title": "Coco",
+      "genre": "Animation",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "rating": 8.4,
+      "duration": "105 min",
+      "year": 2017,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UX500_.jpg",
+      "director": "Lee Unkrich",
+      "cast": "Adrian Molina, Anthony Gonzalez, Gael García Bernal, Benjamin Bratt",
+      "description": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
+    },
+    {
+      "id": 61,
+      "title": "Django Unchained",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Western"
+      ],
+      "rating": 8.4,
+      "duration": "165 min",
+      "year": 2012,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_UX500_.jpg",
+      "director": "Quentin Tarantino",
+      "cast": "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio, Kerry Washington",
+      "description": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner."
+    },
+    {
+      "id": 62,
+      "title": "The Dark Knight Rises",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "rating": 8.4,
+      "duration": "164 min",
+      "year": 2012,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_UX500_.jpg",
+      "director": "Christopher Nolan",
+      "cast": "Christian Bale, Tom Hardy, Anne Hathaway, Gary Oldman",
+      "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane."
+    },
+    {
+      "id": 63,
+      "title": "WALL·E",
+      "genre": "Animation",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Family"
+      ],
+      "rating": 8.4,
+      "duration": "98 min",
+      "year": 2008,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_UX500_.jpg",
+      "director": "Andrew Stanton",
+      "cast": "Ben Burtt, Elissa Knight, Jeff Garlin, Fred Willard",
+      "description": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind."
+    },
+    {
+      "id": 64,
+      "title": "The Lives of Others",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Thriller"
+      ],
+      "rating": 8.4,
+      "duration": "137 min",
+      "year": 2006,
+      "certificate": "A",
+      "region": "Global",
+      "badge": "festival",
+      "badgeLabel": "Festival",
+      "price": {
+        "standard": 220,
+        "premium": 360,
+        "recliner": 540
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BOThkM2EzYmMtNDE3NS00NjlhLTg4YzktYTdhNzgyOWY3ZDYzXkEyXkFqcGdeQXVyNzQzNzQxNzI@._V1_UX500_.jpg",
+      "director": "Florian Henckel von Donnersmarck",
+      "cast": "Ulrich Mühe, Martina Gedeck, Sebastian Koch, Ulrich Tukur",
+      "description": "In 1984 East Berlin, an agent of the secret police, conducting surveillance on a writer and his lover, finds himself becoming increasingly absorbed by their lives."
+    },
+    {
+      "id": 65,
+      "title": "Oldeuboi",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Drama",
+        "Mystery"
+      ],
+      "rating": 8.4,
+      "duration": "101 min",
+      "year": 2003,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 240,
+        "premium": 380,
+        "recliner": 560
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_UX500_.jpg",
+      "director": "Chan-wook Park",
+      "cast": "Choi Min-sik, Yoo Ji-Tae, Kang Hye-jeong, Kim Byeong-Ok",
+      "description": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days."
+    },
+    {
+      "id": 66,
+      "title": "Memento",
+      "genre": "Mystery",
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "rating": 8.4,
+      "duration": "113 min",
+      "year": 2000,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": "restored",
+      "badgeLabel": "Restored",
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Christopher Nolan",
+      "cast": "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior",
+      "description": "A man with short-term memory loss attempts to track down his wife's murderer."
+    },
+    {
+      "id": 67,
+      "title": "Mononoke-hime",
+      "genre": "Animation",
+      "genres": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "rating": 8.4,
+      "duration": "134 min",
+      "year": 1997,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGIzY2IzODQtNThmMi00ZDE4LWI5YzAtNzNlZTM1ZjYyYjUyXkEyXkFqcGdeQXVyODEzNjM5OTQ@._V1_UX500_.jpg",
+      "director": "Hayao Miyazaki",
+      "cast": "Yôji Matsuda, Yuriko Ishida, Yûko Tanaka, Billy Crudup",
+      "description": "On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime."
+    },
+    {
+      "id": 68,
+      "title": "Once Upon a Time in America",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.4,
+      "duration": "229 min",
+      "year": 1984,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGFkNWI4MTMtNGQ0OC00MWVmLTk3MTktOGYxN2Y2YWVkZWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Sergio Leone",
+      "cast": "Robert De Niro, James Woods, Elizabeth McGovern, Treat Williams",
+      "description": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life."
+    },
+    {
+      "id": 69,
+      "title": "Raiders of the Lost Ark",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "rating": 8.4,
+      "duration": "115 min",
+      "year": 1981,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjA0ODEzMTc1Nl5BMl5BanBnXkFtZTcwODM2MjAxNA@@._V1_UX500_.jpg",
+      "director": "Steven Spielberg",
+      "cast": "Harrison Ford, Karen Allen, Paul Freeman, John Rhys-Davies",
+      "description": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers."
+    },
+    {
+      "id": 70,
+      "title": "The Shining",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "rating": 8.4,
+      "duration": "146 min",
+      "year": 1980,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX500_.jpg",
+      "director": "Stanley Kubrick",
+      "cast": "Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers",
+      "description": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future."
+    },
+    {
+      "id": 71,
+      "title": "Apocalypse Now",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "War"
+      ],
+      "rating": 8.4,
+      "duration": "147 min",
+      "year": 1979,
+      "certificate": "R",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 220,
+        "premium": 360,
+        "recliner": 540
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDdhODg0MjYtYzBiOS00ZmI5LWEwZGYtZDEyNDU4MmQyNzFkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "Francis Ford Coppola",
+      "cast": "Martin Sheen, Marlon Brando, Robert Duvall, Frederic Forrest",
+      "description": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god."
+    },
+    {
+      "id": 72,
+      "title": "Alien",
+      "genre": "Horror",
+      "genres": [
+        "Horror",
+        "Sci-Fi"
+      ],
+      "rating": 8.4,
+      "duration": "117 min",
+      "year": 1979,
+      "certificate": "R",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 240,
+        "premium": 380,
+        "recliner": 560
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmQ2MmU3NzktZjAxOC00ZDZhLTk4YzEtMDMyMzcxY2IwMDAyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "Ridley Scott",
+      "cast": "Sigourney Weaver, Tom Skerritt, John Hurt, Veronica Cartwright",
+      "description": "After a space merchant vessel receives an unknown transmission as a distress call, one of the crew is attacked by a mysterious life form and they soon realize that its life cycle has merely begun."
+    },
+    {
+      "id": 73,
+      "title": "Anand",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Musical"
+      ],
+      "rating": 8.4,
+      "duration": "122 min",
+      "year": 1971,
+      "certificate": "U",
+      "region": "Global",
+      "badge": "festival",
+      "badgeLabel": "Festival",
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmYzNmM2MDctZGY3Yi00NjRiLWIxZjctYjgzYTcxYTNhYTMyXkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_UX500_.jpg",
+      "director": "Hrishikesh Mukherjee",
+      "cast": "Rajesh Khanna, Amitabh Bachchan, Sumita Sanyal, Ramesh Deo",
+      "description": "The story of a terminally ill man who wishes to live life to the fullest before the inevitable occurs, as told by his best friend."
+    },
+    {
+      "id": 74,
+      "title": "Tengoku to jigoku",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "rating": 8.4,
+      "duration": "143 min",
+      "year": 1963,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTI4NTNhZDMtMWNkZi00MTRmLWJmZDQtMmJkMGVmZTEzODlhXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX500_.jpg",
+      "director": "Akira Kurosawa",
+      "cast": "Toshirô Mifune, Yutaka Sada, Tatsuya Nakadai, Kyôko Kagawa",
+      "description": "An executive of a shoe company becomes a victim of extortion when his chauffeur's son is kidnapped and held for ransom."
+    },
+    {
+      "id": 75,
+      "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+      "genre": "Comedy",
+      "genres": [
+        "Comedy"
+      ],
+      "rating": 8.4,
+      "duration": "95 min",
+      "year": 1964,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWI3ZTMxNjctMjdlNS00NmUwLWFiM2YtZDUyY2I3N2MxYTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+      "director": "Stanley Kubrick",
+      "cast": "Peter Sellers, George C. Scott, Sterling Hayden, Keenan Wynn",
+      "description": "An insane general triggers a path to nuclear holocaust that a War Room full of politicians and generals frantically tries to stop."
+    },
+    {
+      "id": 76,
+      "title": "Witness for the Prosecution",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "rating": 8.4,
+      "duration": "116 min",
+      "year": 1957,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDQwODU5OWYtNDcyNi00MDQ1LThiOGMtZDkwNWJiM2Y3MDg0XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UX500_.jpg",
+      "director": "Billy Wilder",
+      "cast": "Tyrone Power, Marlene Dietrich, Charles Laughton, Elsa Lanchester",
+      "description": "A veteran British barrister must defend his client in a murder trial that has surprise after surprise."
+    },
+    {
+      "id": 77,
+      "title": "Paths of Glory",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "War"
+      ],
+      "rating": 8.4,
+      "duration": "88 min",
+      "year": 1957,
+      "certificate": "A",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjViMmRkOTEtM2ViOS00ODg0LWJhYWEtNTBlOGQxNDczOGY3XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UX500_.jpg",
+      "director": "Stanley Kubrick",
+      "cast": "Kirk Douglas, Ralph Meeker, Adolphe Menjou, George Macready",
+      "description": "After refusing to attack an enemy position, a general accuses the soldiers of cowardice and their commanding officer must defend them."
+    },
+    {
+      "id": 78,
+      "title": "Rear Window",
+      "genre": "Mystery",
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "rating": 8.4,
+      "duration": "112 min",
+      "year": 1954,
+      "certificate": "U",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 220,
+        "premium": 360,
+        "recliner": 540
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNGUxYWM3M2MtMGM3Mi00ZmRiLWE0NGQtZjE5ODI2OTJhNTU0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX500_.jpg",
+      "director": "Alfred Hitchcock",
+      "cast": "James Stewart, Grace Kelly, Wendell Corey, Thelma Ritter",
+      "description": "A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder."
+    },
+    {
+      "id": 79,
+      "title": "Sunset Blvd.",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Film-Noir"
+      ],
+      "rating": 8.4,
+      "duration": "110 min",
+      "year": 1950,
+      "certificate": "Passed",
+      "region": "Global",
+      "badge": "restored",
+      "badgeLabel": "Restored",
+      "price": {
+        "standard": 240,
+        "premium": 380,
+        "recliner": 560
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTU0NTkyNzYwMF5BMl5BanBnXkFtZTgwMDU0NDk5MTI@._V1_UX500_.jpg",
+      "director": "Billy Wilder",
+      "cast": "William Holden, Gloria Swanson, Erich von Stroheim, Nancy Olson",
+      "description": "A screenwriter develops a dangerous relationship with a faded film star determined to make a triumphant return."
+    },
+    {
+      "id": 80,
+      "title": "The Great Dictator",
+      "genre": "Comedy",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "War"
+      ],
+      "rating": 8.4,
+      "duration": "125 min",
+      "year": 1940,
+      "certificate": "Passed",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMmExYWJjNTktNGUyZS00ODhmLTkxYzAtNWIzOGEyMGNiMmUwXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Charles Chaplin",
+      "cast": "Charles Chaplin, Paulette Goddard, Jack Oakie, Reginald Gardiner",
+      "description": "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime."
+    },
+    {
+      "id": 81,
+      "title": "1917",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "rating": 8.3,
+      "duration": "119 min",
+      "year": 2019,
+      "certificate": "R",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTdmNTFjNDEtNzg0My00ZjkxLTg1ZDAtZTdkMDc2ZmFiNWQ1XkEyXkFqcGdeQXVyNTAzNzgwNTg@._V1_UX500_.jpg",
+      "director": "Sam Mendes",
+      "cast": "Dean-Charles Chapman, George MacKay, Daniel Mays, Colin Firth",
+      "description": "April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap."
+    },
+    {
+      "id": 82,
+      "title": "Jagten",
+      "genre": "Drama",
+      "genres": [
+        "Drama"
+      ],
+      "rating": 8.3,
+      "duration": "115 min",
+      "year": 2012,
+      "certificate": "R",
+      "region": "Global",
+      "badge": "festival",
+      "badgeLabel": "Festival",
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTg2NDg3ODg4NF5BMl5BanBnXkFtZTcwNzk3NTc3Nw@@._V1_UX500_.jpg",
+      "director": "Thomas Vinterberg",
+      "cast": "Mads Mikkelsen, Thomas Bo Larsen, Annika Wedderkopp, Lasse Fogelstrøm",
+      "description": "A teacher lives a lonely life, all the while struggling over his son's custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie."
+    },
+    {
+      "id": 83,
+      "title": "Jodaeiye Nader az Simin",
+      "genre": "Drama",
+      "genres": [
+        "Drama"
+      ],
+      "rating": 8.3,
+      "duration": "123 min",
+      "year": 2011,
+      "certificate": "PG-13",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2JmMjViMjMtZTM5Mi00ZGZkLTk5YzctZDg5MjFjZDE4NjNkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX500_.jpg",
+      "director": "Asghar Farhadi",
+      "cast": "Payman Maadi, Leila Hatami, Sareh Bayat, Shahab Hosseini",
+      "description": "A married couple are faced with a difficult decision - to improve the life of their child by moving to another country or to stay in Iran and look after a deteriorating parent who has Alzheimer's disease."
+    },
+    {
+      "id": 84,
+      "title": "Incendies",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "War"
+      ],
+      "rating": 8.3,
+      "duration": "131 min",
+      "year": 2010,
+      "certificate": "R",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWE3MGYzZjktY2Q5Mi00Y2NiLWIyYWUtMmIyNzA3YmZlMGFhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX500_.jpg",
+      "director": "Denis Villeneuve",
+      "cast": "Lubna Azabal, Mélissa Désormeaux-Poulin, Maxim Gaudette, Mustafa Kamel",
+      "description": "Twins journey to the Middle East to discover their family history and fulfill their mother's last wishes."
+    },
+    {
+      "id": 85,
+      "title": "Miracle in cell NO.7",
+      "genre": "Drama",
+      "genres": [
+        "Drama"
+      ],
+      "rating": 8.3,
+      "duration": "132 min",
+      "year": 2019,
+      "certificate": "TV-14",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 220,
+        "premium": 360,
+        "recliner": 540
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BOGE3N2QxN2YtM2ZlNS00MWIyLWE1NDAtYWFlN2FiYjY1MjczXkEyXkFqcGdeQXVyOTUwNzc0ODc@._V1_UX500_.jpg",
+      "director": "Mehmet Ada Öztekin",
+      "cast": "Aras Bulut Iynemli, Nisa Sofiya Aksongur, Deniz Baysal, Celile Toyon Uysal",
+      "description": "A story of love between a mentally-ill father who was wrongly accused of murder and his lovely six years old daughter. The prison would be their home. Based on the 2013 Korean movie 7-beon-bang-ui seon-mul (2013)."
+    },
+    {
+      "id": 86,
+      "title": "Babam ve Oglum",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Family"
+      ],
+      "rating": 8.3,
+      "duration": "112 min",
+      "year": 2005,
+      "certificate": "UA",
+      "region": "Global",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 240,
+        "premium": 380,
+        "recliner": 560
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjAzMzEwYzctNjc1MC00Nzg5LWFmMGItMTgzYmMyNTY2OTQ4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Çagan Irmak",
+      "cast": "Çetin Tekindor, Fikret Kuskan, Hümeyra, Ege Tanman",
+      "description": "The family of a left-wing journalist is torn apart after the military coup of Turkey in 1980."
+    },
+    {
+      "id": 87,
+      "title": "Vikram Vedha",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.4,
+      "duration": "147 min",
+      "year": 2017,
+      "certificate": "UA",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2FiMTFmMzMtZDI2ZC00NDQyLWExYTUtOWNmZWM1ZDg5YjVjXkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_UX500_.jpg",
+      "director": "Gayatri",
+      "cast": "Pushkar, Madhavan, Vijay Sethupathi, Shraddha Srinath",
+      "description": "Vikram, a no-nonsense police officer, accompanied by Simon, his partner, is on the hunt to capture Vedha, a smuggler and a murderer. Vedha tries to change Vikram's life, which leads to a conflict."
+    },
+    {
+      "id": 88,
+      "title": "Dangal",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Biography",
+        "Drama"
+      ],
+      "rating": 8.4,
+      "duration": "161 min",
+      "year": 2016,
+      "certificate": "U",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_UX500_.jpg",
+      "director": "Nitesh Tiwari",
+      "cast": "Aamir Khan, Sakshi Tanwar, Fatima Sana Shaikh, Sanya Malhotra",
+      "description": "Former wrestler Mahavir Singh Phogat and his two wrestler daughters struggle towards glory at the Commonwealth Games in the face of societal oppression."
+    },
+    {
+      "id": 89,
+      "title": "3 Idiots",
+      "genre": "Comedy",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "rating": 8.4,
+      "duration": "170 min",
+      "year": 2009,
+      "certificate": "UA",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTkyOGVjMGEtNmQzZi00NzFlLTlhOWQtODYyMDc2ZGJmYzFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Rajkumar Hirani",
+      "cast": "Aamir Khan, Madhavan, Mona Singh, Sharman Joshi",
+      "description": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them \"idiots\"."
+    },
+    {
+      "id": 90,
+      "title": "Taare Zameen Par",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Family"
+      ],
+      "rating": 8.4,
+      "duration": "165 min",
+      "year": 2007,
+      "certificate": "U",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDhjZWViN2MtNzgxOS00NmI4LThiZDQtZDI3MzM4MDE4NTc0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX500_.jpg",
+      "director": "Aamir Khan",
+      "cast": "Amole Gupte, Darsheel Safary, Aamir Khan, Tisca Chopra",
+      "description": "An eight-year-old boy is thought to be a lazy trouble-maker, until the new art teacher has the patience and compassion to discover the real problem behind his struggles in school."
+    },
+    {
+      "id": 91,
+      "title": "Tumbbad",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "rating": 8.3,
+      "duration": "104 min",
+      "year": 2018,
+      "certificate": "A",
+      "region": "India",
+      "badge": "festival",
+      "badgeLabel": "Festival",
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmQxNmU4ZjgtYzE5Mi00ZDlhLTlhOTctMzJkNjk2ZGUyZGEwXkEyXkFqcGdeQXVyMzgxMDA0Nzk@._V1_UX500_.jpg",
+      "director": "Rahi Anil Barve",
+      "cast": "Anand Gandhi, Adesh Prasad, Sohum Shah, Jyoti Malshe",
+      "description": "A mythological story about a goddess who created the entire universe. The plot revolves around the consequences when humans build a temple for her first-born."
+    },
+    {
+      "id": 92,
+      "title": "Andhadhun",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Music"
+      ],
+      "rating": 8.3,
+      "duration": "139 min",
+      "year": 2018,
+      "certificate": "UA",
+      "region": "India",
+      "badge": "restored",
+      "badgeLabel": "Restored",
+      "price": {
+        "standard": 220,
+        "premium": 360,
+        "recliner": 540
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BZWZhMjhhZmYtOTIzOC00MGYzLWI1OGYtM2ZkN2IxNTI4ZWI3XkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_UX500_.jpg",
+      "director": "Sriram Raghavan",
+      "cast": "Ayushmann Khurrana, Tabu, Radhika Apte, Anil Dhawan",
+      "description": "A series of mysterious events change the life of a blind pianist, who must now report a crime that he should technically know nothing of."
+    },
+    {
+      "id": 93,
+      "title": "Drishyam",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "rating": 8.3,
+      "duration": "160 min",
+      "year": 2013,
+      "certificate": "U",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 240,
+        "premium": 380,
+        "recliner": 560
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYmY3MzYwMGUtOWMxYS00OGVhLWFjNmUtYzlkNGVmY2ZkMjA3XkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_UX500_.jpg",
+      "director": "Jeethu Joseph",
+      "cast": "Mohanlal, Meena, Asha Sharath, Ansiba",
+      "description": "A man goes to extreme lengths to save his family from punishment after the family commits an accidental crime."
+    },
+    {
+      "id": 94,
+      "title": "Talvar",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "rating": 8.2,
+      "duration": "132 min",
+      "year": 2015,
+      "certificate": "UA",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYzODg0Mjc4M15BMl5BanBnXkFtZTgwNzY4Mzc3NjE@._V1_UX500_.jpg",
+      "director": "Meghna Gulzar",
+      "cast": "Irrfan Khan, Konkona Sen Sharma, Neeraj Kabi, Sohum Shah",
+      "description": "An experienced investigator confronts several conflicting theories about the perpetrators of a violent double homicide."
+    },
+    {
+      "id": 95,
+      "title": "Queen",
+      "genre": "Adventure",
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Drama"
+      ],
+      "rating": 8.2,
+      "duration": "146 min",
+      "year": 2013,
+      "certificate": "UA",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNWYyOWRlOWItZWM5MS00ZjJkLWI0MTUtYTE3NTI5MDAwYjgyXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX500_.jpg",
+      "director": "Vikas Bahl",
+      "cast": "Kangana Ranaut, Rajkummar Rao, Lisa Haydon, Jeffrey Ho",
+      "description": "A Delhi girl from a traditional family sets out on a solo honeymoon after her marriage gets cancelled."
+    },
+    {
+      "id": 96,
+      "title": "Gangs of Wasseypur",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Crime"
+      ],
+      "rating": 8.2,
+      "duration": "321 min",
+      "year": 2012,
+      "certificate": "A",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTc5NjY4MjUwNF5BMl5BanBnXkFtZTgwODM3NzM5MzE@._V1_UX500_.jpg",
+      "director": "Anurag Kashyap",
+      "cast": "Manoj Bajpayee, Richa Chadha, Nawazuddin Siddiqui, Tigmanshu Dhulia",
+      "description": "A clash between Sultan and Shahid Khan leads to the expulsion of Khan from Wasseypur, and ignites a deadly blood feud spanning three generations."
+    },
+    {
+      "id": 97,
+      "title": "Udaan",
+      "genre": "Drama",
+      "genres": [
+        "Drama"
+      ],
+      "rating": 8.2,
+      "duration": "134 min",
+      "year": 2010,
+      "certificate": "UA",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzgxMzExMzUwNV5BMl5BanBnXkFtZTcwMDc2MjUwNA@@._V1_UX500_.jpg",
+      "director": "Vikramaditya Motwane",
+      "cast": "Rajat Barmecha, Ronit Roy, Manjot Singh, Ram Kapoor",
+      "description": "Expelled from his school, a 16-year old boy returns home to his abusive and oppressive father."
+    },
+    {
+      "id": 98,
+      "title": "Chak De! India",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "Family",
+        "Sport"
+      ],
+      "rating": 8.2,
+      "duration": "153 min",
+      "year": 2007,
+      "certificate": "U",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTUzODMyNzk4NV5BMl5BanBnXkFtZTgwNTk1NTYyNTM@._V1_UX500_.jpg",
+      "director": "Shimit Amin",
+      "cast": "Shah Rukh Khan, Vidya Malvade, Sagarika Ghatge, Shilpa Shukla",
+      "description": "Kabir Khan is the coach of the Indian Women's National Hockey Team and his dream is to make his all girls team emerge victorious against all odds."
+    },
+    {
+      "id": 99,
+      "title": "Rang De Basanti",
+      "genre": "Comedy",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.2,
+      "duration": "167 min",
+      "year": 2006,
+      "certificate": "UA",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 220,
+        "premium": 360,
+        "recliner": 540
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYThmZDA0YmQtMWJhNy00MDQwLTk0Y2YtMDhmZTE5ZjhlNjliXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX500_.jpg",
+      "director": "Rakeysh Omprakash Mehra",
+      "cast": "Aamir Khan, Soha Ali Khan, Siddharth, Sharman Joshi",
+      "description": "The story of six young Indians who assist an English woman to film a documentary on the freedom fighters from their past, and the events that lead them to relive the long-forgotten saga of freedom."
+    },
+    {
+      "id": 100,
+      "title": "Swades: We, the People",
+      "genre": "Drama",
+      "genres": [
+        "Drama"
+      ],
+      "rating": 8.2,
+      "duration": "210 min",
+      "year": 2004,
+      "certificate": "U",
+      "region": "India",
+      "badge": "festival",
+      "badgeLabel": "Festival",
+      "price": {
+        "standard": 240,
+        "premium": 380,
+        "recliner": 560
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BYzExOTcwNjYtZTljMC00YTQ2LWI2YjYtNWFlYzQ0YTJhNzJmXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_UX500_.jpg",
+      "director": "Ashutosh Gowariker",
+      "cast": "Shah Rukh Khan, Gayatri Joshi, Kishori Ballal, Smit Sheth",
+      "description": "A successful Indian scientist returns to an Indian village to take his nanny to America with him and in the process rediscovers his roots."
+    },
+    {
+      "id": 101,
+      "title": "Sholay",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "rating": 8.2,
+      "duration": "204 min",
+      "year": 1975,
+      "certificate": "U",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BOGZiM2IwODktNTdiMC00MGU1LWEyZTYtOTk4NTkwYmJkNmI1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Ramesh Sippy",
+      "cast": "Sanjeev Kumar, Dharmendra, Amitabh Bachchan, Amjad Khan",
+      "description": "After his family is murdered by a notorious and ruthless bandit, a former police officer enlists the services of two outlaws to capture the bandit."
+    },
+    {
+      "id": 102,
+      "title": "Haider",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.1,
+      "duration": "160 min",
+      "year": 2014,
+      "certificate": "UA",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjA1NTEwMDMxMF5BMl5BanBnXkFtZTgwODkzMzI0MjE@._V1_UX500_.jpg",
+      "director": "Vishal Bhardwaj",
+      "cast": "Shahid Kapoor, Tabu, Shraddha Kapoor, Kay Kay Menon",
+      "description": "A young man returns to Kashmir after his father's disappearance to confront his uncle, whom he suspects of playing a role in his father's fate."
+    },
+    {
+      "id": 103,
+      "title": "PK",
+      "genre": "Comedy",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Musical"
+      ],
+      "rating": 8.1,
+      "duration": "153 min",
+      "year": 2014,
+      "certificate": "UA",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTYzOTE2NjkxN15BMl5BanBnXkFtZTgwMDgzMTg0MzE@._V1_UX500_.jpg",
+      "director": "Rajkumar Hirani",
+      "cast": "Aamir Khan, Anushka Sharma, Sanjay Dutt, Boman Irani",
+      "description": "An alien on Earth loses the only device he can use to communicate with his spaceship. His innocent nature and child-like questions force the country to evaluate the impact of religion on its people."
+    },
+    {
+      "id": 104,
+      "title": "Barfi!",
+      "genre": "Comedy",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "rating": 8.1,
+      "duration": "151 min",
+      "year": 2012,
+      "certificate": "U",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTQzMTEyODY2Ml5BMl5BanBnXkFtZTgwMjA0MDUyMjE@._V1_UX500_.jpg",
+      "director": "Anurag Basu",
+      "cast": "Ranbir Kapoor, Priyanka Chopra, Ileana D'Cruz, Saurabh Shukla",
+      "description": "Three young people learn that love can neither be defined nor contained by society's definition of normal and abnormal."
+    },
+    {
+      "id": 105,
+      "title": "Kahaani",
+      "genre": "Mystery",
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "rating": 8.1,
+      "duration": "122 min",
+      "year": 2012,
+      "certificate": "UA",
+      "region": "India",
+      "badge": "restored",
+      "badgeLabel": "Restored",
+      "price": {
+        "standard": 340,
+        "premium": 480,
+        "recliner": 660
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTQ1NDI0NzkyOF5BMl5BanBnXkFtZTcwNzAyNzE2Nw@@._V1_UX500_.jpg",
+      "director": "Sujoy Ghosh",
+      "cast": "Vidya Balan, Parambrata Chattopadhyay, Indraneil Sengupta, Nawazuddin Siddiqui",
+      "description": "A pregnant woman's search for her missing husband takes her from London to Kolkata, but everyone she questions denies having ever met him."
+    },
+    {
+      "id": 106,
+      "title": "A Wednesday",
+      "genre": "Action",
+      "genres": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "rating": 8.1,
+      "duration": "104 min",
+      "year": 2008,
+      "certificate": "UA",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 220,
+        "premium": 360,
+        "recliner": 540
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTcwMzdiMWItMjZlOS00MzAzLTg5OTItNTA4OGYyMjBhMmRiXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX500_.jpg",
+      "director": "Neeraj Pandey",
+      "cast": "Anupam Kher, Naseeruddin Shah, Jimmy Sheirgill, Aamir Bashir",
+      "description": "A retiring police officer reminisces about the most astounding day of his career. About a case that was never filed but continues to haunt him in his memories - the case of a man and a Wednesday."
+    },
+    {
+      "id": 107,
+      "title": "Munna Bhai M.B.B.S.",
+      "genre": "Comedy",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Musical"
+      ],
+      "rating": 8.1,
+      "duration": "156 min",
+      "year": 2003,
+      "certificate": "U",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 240,
+        "premium": 380,
+        "recliner": 560
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzQ4MTBlYTQtMzJkYS00OGNjLTk1MWYtNzQ0OTQ0OWEyOWU1XkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_UX500_.jpg",
+      "director": "Rajkumar Hirani",
+      "cast": "Sanjay Dutt, Arshad Warsi, Gracy Singh, Sunil Dutt",
+      "description": "A gangster sets out to fulfill his father's dream of becoming a doctor."
+    },
+    {
+      "id": 108,
+      "title": "Dil Chahta Hai",
+      "genre": "Comedy",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "rating": 8.1,
+      "duration": "183 min",
+      "year": 2001,
+      "certificate": "Unrated",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 260,
+        "premium": 400,
+        "recliner": 580
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjRjMTYwMTYtMmRkNi00MmVkLWE0MjQtNmM3YjI0NWFhZDNmXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX500_.jpg",
+      "director": "Farhan Akhtar",
+      "cast": "Aamir Khan, Saif Ali Khan, Akshaye Khanna, Preity Zinta",
+      "description": "Three inseparable childhood friends are just out of college. Nothing comes between them - until they each fall in love, and their wildly different approaches to relationships creates tension."
+    },
+    {
+      "id": 109,
+      "title": "Lagaan: Once Upon a Time in India",
+      "genre": "Adventure",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "Musical"
+      ],
+      "rating": 8.1,
+      "duration": "224 min",
+      "year": 2001,
+      "certificate": "U",
+      "region": "India",
+      "badge": "festival",
+      "badgeLabel": "Festival",
+      "price": {
+        "standard": 280,
+        "premium": 420,
+        "recliner": 600
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNWUzZmYtOGQxMC00MTdkLTkxOTctYzkyOGIwNWQxZjhmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+      "director": "Ashutosh Gowariker",
+      "cast": "Aamir Khan, Raghuvir Yadav, Gracy Singh, Rachel Shelley",
+      "description": "The people of a small village in Victorian India stake their future on a game of cricket against their ruthless British rulers."
+    },
+    {
+      "id": 110,
+      "title": "Airlift",
+      "genre": "Drama",
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "rating": 8,
+      "duration": "130 min",
+      "year": 2016,
+      "certificate": "UA",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 300,
+        "premium": 440,
+        "recliner": 620
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGE1ZTkyOTMtMTdiZS00YzI2LTlmYWQtOTE5YWY0NWVlNjlmXkEyXkFqcGdeQXVyNjQ3ODkxMjE@._V1_UX500_.jpg",
+      "director": "Raja Menon",
+      "cast": "Akshay Kumar, Nimrat Kaur, Kumud Mishra, Prakash Belawadi",
+      "description": "When Iraq invades Kuwait in August 1990, a callous Indian businessman becomes the spokesperson for more than 170,000 stranded countrymen."
+    },
+    {
+      "id": 111,
+      "title": "Special Chabbis",
+      "genre": "Crime",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "rating": 8,
+      "duration": "144 min",
+      "year": 2013,
+      "certificate": "UA",
+      "region": "India",
+      "badge": null,
+      "badgeLabel": null,
+      "price": {
+        "standard": 320,
+        "premium": 460,
+        "recliner": 640
+      },
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTQ1NDI5MjMzNF5BMl5BanBnXkFtZTcwMTc0MDQwOQ@@._V1_UX500_.jpg",
+      "director": "Neeraj Pandey",
+      "cast": "Akshay Kumar, Anupam Kher, Manoj Bajpayee, Jimmy Sheirgill",
+      "description": "A gang of con-men rob prominent rich businessmen and politicians by posing as C.B.I and income tax officers."
+    }
+  ]
+}

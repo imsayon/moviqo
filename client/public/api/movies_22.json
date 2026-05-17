@@ -1,0 +1,131 @@
+{
+  "movie": {
+    "id": 22,
+    "title": "Interstellar",
+    "genre": "Adventure",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "rating": 8.6,
+    "duration": "169 min",
+    "year": 2014,
+    "certificate": "UA",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "price": {
+      "standard": 220,
+      "premium": 360,
+      "recliner": 540
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX500_.jpg",
+    "director": "Christopher Nolan",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Matthew McConaughey, Anne Hathaway, Jessica Chastain, Mackenzie Foy",
+    "stars": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain",
+      "Mackenzie Foy"
+    ],
+    "metaScore": 74,
+    "votes": 1512360,
+    "gross": "188,020,017",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "2:20 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "movie": {
+    "id": 87,
+    "title": "Vikram Vedha",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "rating": 8.4,
+    "duration": "147 min",
+    "year": 2017,
+    "certificate": "UA",
+    "lang": "Indian Cinema",
+    "region": "India",
+    "formats": [
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "Vikram, a no-nonsense police officer, accompanied by Simon, his partner, is on the hunt to capture Vedha, a smuggler and a murderer. Vedha tries to change Vikram's life, which leads to a conflict.",
+    "price": {
+      "standard": 260,
+      "premium": 400,
+      "recliner": 580
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BY2FiMTFmMzMtZDI2ZC00NDQyLWExYTUtOWNmZWM1ZDg5YjVjXkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_UX500_.jpg",
+    "director": "Gayatri",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Pushkar, Madhavan, Vijay Sethupathi, Shraddha Srinath",
+    "stars": [
+      "Pushkar",
+      "Madhavan",
+      "Vijay Sethupathi",
+      "Shraddha Srinath"
+    ],
+    "metaScore": null,
+    "votes": 28401,
+    "gross": null,
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "11:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

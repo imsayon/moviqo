@@ -1,0 +1,132 @@
+{
+  "movie": {
+    "id": 106,
+    "title": "A Wednesday",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "rating": 8.1,
+    "duration": "104 min",
+    "year": 2008,
+    "certificate": "UA",
+    "lang": "Indian Cinema",
+    "region": "India",
+    "formats": [
+      "IMAX",
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "A retiring police officer reminisces about the most astounding day of his career. About a case that was never filed but continues to haunt him in his memories - the case of a man and a Wednesday.",
+    "price": {
+      "standard": 220,
+      "premium": 360,
+      "recliner": 540
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTcwMzdiMWItMjZlOS00MzAzLTg5OTItNTA4OGYyMjBhMmRiXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX500_.jpg",
+    "director": "Neeraj Pandey",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Anupam Kher, Naseeruddin Shah, Jimmy Sheirgill, Aamir Bashir",
+    "stars": [
+      "Anupam Kher",
+      "Naseeruddin Shah",
+      "Jimmy Sheirgill",
+      "Aamir Bashir"
+    ],
+    "metaScore": null,
+    "votes": 73891,
+    "gross": null,
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

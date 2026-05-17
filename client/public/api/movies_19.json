@@ -1,0 +1,137 @@
+{
+  "movie": {
+    "id": 19,
+    "title": "Hamilton",
+    "genre": "Biography",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "rating": 8.6,
+    "duration": "160 min",
+    "year": 2020,
+    "certificate": "PG-13",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Director Cut",
+      "Dolby",
+      "Standard"
+    ],
+    "badge": "festival",
+    "badgeLabel": "Festival",
+    "description": "The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast.",
+    "price": {
+      "standard": 300,
+      "premium": 440,
+      "recliner": 620
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjViNWRjYWEtZTI0NC00N2E3LTk0NGQtMjY4NTM3OGNkZjY0XkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_UX500_.jpg",
+    "director": "Thomas Kail",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Lin-Manuel Miranda, Phillipa Soo, Leslie Odom Jr., Renée Elise Goldsberry",
+    "stars": [
+      "Lin-Manuel Miranda",
+      "Phillipa Soo",
+      "Leslie Odom Jr.",
+      "Renée Elise Goldsberry"
+    ],
+    "metaScore": 90,
+    "votes": 55291,
+    "gross": null,
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "10:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "5:00 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

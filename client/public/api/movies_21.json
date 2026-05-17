@@ -1,0 +1,135 @@
+{
+  "movie": {
+    "id": 21,
+    "title": "Soorarai Pottru",
+    "genre": "Drama",
+    "genres": [
+      "Drama"
+    ],
+    "rating": 8.6,
+    "duration": "153 min",
+    "year": 2020,
+    "certificate": "U",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "IMAX",
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "Nedumaaran Rajangam \"Maara\" sets out to make the common man fly and in the process takes on the world's most capital intensive industry and several enemies who stand in his way.",
+    "price": {
+      "standard": 340,
+      "premium": 480,
+      "recliner": 660
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTc2ZTlmYmItMDBhYS00YmMzLWI4ZjAtMTI5YTBjOTFiMGEwXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX500_.jpg",
+    "director": "Sudha Kongara",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Suriya, Madhavan, Paresh Rawal, Aparna Balamurali",
+    "stars": [
+      "Suriya",
+      "Madhavan",
+      "Paresh Rawal",
+      "Aparna Balamurali"
+    ],
+    "metaScore": null,
+    "votes": 54995,
+    "gross": null,
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "5:00 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

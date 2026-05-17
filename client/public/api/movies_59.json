@@ -1,0 +1,137 @@
+{
+  "movie": {
+    "id": 59,
+    "title": "Avengers: Infinity War",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "rating": 8.4,
+    "duration": "149 min",
+    "year": 2018,
+    "certificate": "UA",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Director Cut",
+      "Dolby",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+    "price": {
+      "standard": 260,
+      "premium": 400,
+      "recliner": 580
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UX500_.jpg",
+    "director": "Anthony Russo",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Joe Russo, Robert Downey Jr., Chris Hemsworth, Mark Ruffalo",
+    "stars": [
+      "Joe Russo",
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Mark Ruffalo"
+    ],
+    "metaScore": 68,
+    "votes": 834477,
+    "gross": "678,815,482",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "11:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

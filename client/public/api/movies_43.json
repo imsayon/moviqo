@@ -1,0 +1,137 @@
+{
+  "movie": {
+    "id": 43,
+    "title": "Léon",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "rating": 8.5,
+    "duration": "110 min",
+    "year": 1994,
+    "certificate": "A",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "4DX",
+      "IMAX",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. An unusual relationship forms as she becomes his protégée and learns the assassin's trade.",
+    "price": {
+      "standard": 220,
+      "premium": 360,
+      "recliner": 540
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BODllNWE0MmEtYjUwZi00ZjY3LThmNmQtZjZlMjI2YTZjYmQ0XkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_UX500_.jpg",
+    "director": "Luc Besson",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Jean Reno, Gary Oldman, Natalie Portman, Danny Aiello",
+    "stars": [
+      "Jean Reno",
+      "Gary Oldman",
+      "Natalie Portman",
+      "Danny Aiello"
+    ],
+    "metaScore": 64,
+    "votes": 1035236,
+    "gross": "19,501,238",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "4DX",
+            "soldOut": true
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

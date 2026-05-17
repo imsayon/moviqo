@@ -1,0 +1,136 @@
+{
+  "movie": {
+    "id": 79,
+    "title": "Sunset Blvd.",
+    "genre": "Drama",
+    "genres": [
+      "Drama",
+      "Film-Noir"
+    ],
+    "rating": 8.4,
+    "duration": "110 min",
+    "year": 1950,
+    "certificate": "Passed",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Director Cut",
+      "Dolby",
+      "Standard"
+    ],
+    "badge": "restored",
+    "badgeLabel": "Restored",
+    "description": "A screenwriter develops a dangerous relationship with a faded film star determined to make a triumphant return.",
+    "price": {
+      "standard": 240,
+      "premium": 380,
+      "recliner": 560
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTU0NTkyNzYwMF5BMl5BanBnXkFtZTgwMDU0NDk5MTI@._V1_UX500_.jpg",
+    "director": "Billy Wilder",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "William Holden, Gloria Swanson, Erich von Stroheim, Nancy Olson",
+    "stars": [
+      "William Holden",
+      "Gloria Swanson",
+      "Erich von Stroheim",
+      "Nancy Olson"
+    ],
+    "metaScore": null,
+    "votes": 201632,
+    "gross": null,
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "4DX",
+            "soldOut": true
+          }
+        ]
+      }
+    ]
+  }
+}

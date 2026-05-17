@@ -1,0 +1,137 @@
+{
+  "movie": {
+    "id": 31,
+    "title": "Seppuku",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Drama",
+      "Mystery"
+    ],
+    "rating": 8.6,
+    "duration": "133 min",
+    "year": 1962,
+    "certificate": "UA",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "IMAX",
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "When a ronin requesting seppuku at a feudal lord's palace is told of the brutal suicide of another ronin who previously visited, he reveals how their pasts are intertwined - and in doing so challenges the clan's integrity.",
+    "price": {
+      "standard": 260,
+      "premium": 400,
+      "recliner": 580
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BYjBmYTQ1NjItZWU5MS00YjI0LTg2OTYtYmFkN2JkMmNiNWVkXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_UX500_.jpg",
+    "director": "Masaki Kobayashi",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Tatsuya Nakadai, Akira Ishihama, Shima Iwashita, Tetsurô Tanba",
+    "stars": [
+      "Tatsuya Nakadai",
+      "Akira Ishihama",
+      "Shima Iwashita",
+      "Tetsurô Tanba"
+    ],
+    "metaScore": 85,
+    "votes": 42004,
+    "gross": null,
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Director Cut",
+            "soldOut": true
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "movie": {
+    "id": 68,
+    "title": "Once Upon a Time in America",
+    "genre": "Crime",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "rating": 8.4,
+    "duration": "229 min",
+    "year": 1984,
+    "certificate": "A",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "4DX",
+      "IMAX",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.",
+    "price": {
+      "standard": 300,
+      "premium": 440,
+      "recliner": 620
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMGFkNWI4MTMtNGQ0OC00MWVmLTk3MTktOGYxN2Y2YWVkZWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+    "director": "Sergio Leone",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Robert De Niro, James Woods, Elizabeth McGovern, Treat Williams",
+    "stars": [
+      "Robert De Niro",
+      "James Woods",
+      "Elizabeth McGovern",
+      "Treat Williams"
+    ],
+    "metaScore": null,
+    "votes": 311365,
+    "gross": "5,321,508",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "IMAX",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "8:15 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Director Cut",
+            "soldOut": true
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

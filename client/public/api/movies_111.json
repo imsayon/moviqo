@@ -1,0 +1,137 @@
+{
+  "movie": {
+    "id": 111,
+    "title": "Special Chabbis",
+    "genre": "Crime",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "rating": 8,
+    "duration": "144 min",
+    "year": 2013,
+    "certificate": "UA",
+    "lang": "Indian Cinema",
+    "region": "India",
+    "formats": [
+      "IMAX",
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "A gang of con-men rob prominent rich businessmen and politicians by posing as C.B.I and income tax officers.",
+    "price": {
+      "standard": 320,
+      "premium": 460,
+      "recliner": 640
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTQ1NDI5MjMzNF5BMl5BanBnXkFtZTcwMTc0MDQwOQ@@._V1_UX500_.jpg",
+    "director": "Neeraj Pandey",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Akshay Kumar, Anupam Kher, Manoj Bajpayee, Jimmy Sheirgill",
+    "stars": [
+      "Akshay Kumar",
+      "Anupam Kher",
+      "Manoj Bajpayee",
+      "Jimmy Sheirgill"
+    ],
+    "metaScore": null,
+    "votes": 51069,
+    "gross": "1,079,369",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "4DX",
+            "soldOut": true
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "7:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

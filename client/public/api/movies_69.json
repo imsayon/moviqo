@@ -1,0 +1,136 @@
+{
+  "movie": {
+    "id": 69,
+    "title": "Raiders of the Lost Ark",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "rating": 8.4,
+    "duration": "115 min",
+    "year": 1981,
+    "certificate": "A",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Director Cut",
+      "Dolby",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers.",
+    "price": {
+      "standard": 320,
+      "premium": 460,
+      "recliner": 640
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMjA0ODEzMTc1Nl5BMl5BanBnXkFtZTcwODM2MjAxNA@@._V1_UX500_.jpg",
+    "director": "Steven Spielberg",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Harrison Ford, Karen Allen, Paul Freeman, John Rhys-Davies",
+    "stars": [
+      "Harrison Ford",
+      "Karen Allen",
+      "Paul Freeman",
+      "John Rhys-Davies"
+    ],
+    "metaScore": 85,
+    "votes": 884112,
+    "gross": "248,159,971",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "6:05 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Director Cut",
+            "soldOut": true
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

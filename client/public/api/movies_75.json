@@ -1,0 +1,134 @@
+{
+  "movie": {
+    "id": 75,
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "genre": "Comedy",
+    "genres": [
+      "Comedy"
+    ],
+    "rating": 8.4,
+    "duration": "95 min",
+    "year": 1964,
+    "certificate": "A",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Classic Screen",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "An insane general triggers a path to nuclear holocaust that a War Room full of politicians and generals frantically tries to stop.",
+    "price": {
+      "standard": 300,
+      "premium": 440,
+      "recliner": 620
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BZWI3ZTMxNjctMjdlNS00NmUwLWFiM2YtZDUyY2I3N2MxYTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+    "director": "Stanley Kubrick",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Peter Sellers, George C. Scott, Sterling Hayden, Keenan Wynn",
+    "stars": [
+      "Peter Sellers",
+      "George C. Scott",
+      "Sterling Hayden",
+      "Keenan Wynn"
+    ],
+    "metaScore": 97,
+    "votes": 450474,
+    "gross": "275,902",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "4DX",
+            "soldOut": true
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "10:20 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

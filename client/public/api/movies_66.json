@@ -1,0 +1,131 @@
+{
+  "movie": {
+    "id": 66,
+    "title": "Memento",
+    "genre": "Mystery",
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "rating": 8.4,
+    "duration": "113 min",
+    "year": 2000,
+    "certificate": "UA",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "IMAX",
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": "restored",
+    "badgeLabel": "Restored",
+    "description": "A man with short-term memory loss attempts to track down his wife's murderer.",
+    "price": {
+      "standard": 260,
+      "premium": 400,
+      "recliner": 580
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+    "director": "Christopher Nolan",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Guy Pearce, Carrie-Anne Moss, Joe Pantoliano, Mark Boone Junior",
+    "stars": [
+      "Guy Pearce",
+      "Carrie-Anne Moss",
+      "Joe Pantoliano",
+      "Mark Boone Junior"
+    ],
+    "metaScore": 80,
+    "votes": 1125712,
+    "gross": "25,544,867",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Director Cut",
+            "soldOut": true
+          }
+        ]
+      }
+    ]
+  }
+}

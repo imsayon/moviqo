@@ -1,0 +1,132 @@
+{
+  "movie": {
+    "id": 98,
+    "title": "Chak De! India",
+    "genre": "Drama",
+    "genres": [
+      "Drama",
+      "Family",
+      "Sport"
+    ],
+    "rating": 8.2,
+    "duration": "153 min",
+    "year": 2007,
+    "certificate": "U",
+    "lang": "Indian Cinema",
+    "region": "India",
+    "formats": [
+      "4DX",
+      "IMAX",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "Kabir Khan is the coach of the Indian Women's National Hockey Team and his dream is to make his all girls team emerge victorious against all odds.",
+    "price": {
+      "standard": 340,
+      "premium": 480,
+      "recliner": 660
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTUzODMyNzk4NV5BMl5BanBnXkFtZTgwNTk1NTYyNTM@._V1_UX500_.jpg",
+    "director": "Shimit Amin",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Shah Rukh Khan, Vidya Malvade, Sagarika Ghatge, Shilpa Shukla",
+    "stars": [
+      "Shah Rukh Khan",
+      "Vidya Malvade",
+      "Sagarika Ghatge",
+      "Shilpa Shukla"
+    ],
+    "metaScore": 68,
+    "votes": 74129,
+    "gross": "1,113,541",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Director Cut",
+            "soldOut": true
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "4DX",
+            "soldOut": true
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

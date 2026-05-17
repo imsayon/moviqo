@@ -1,0 +1,135 @@
+{
+  "movie": {
+    "id": 49,
+    "title": "Once Upon a Time in the West",
+    "genre": "Western",
+    "genres": [
+      "Western"
+    ],
+    "rating": 8.5,
+    "duration": "165 min",
+    "year": 1968,
+    "certificate": "U",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Director Cut",
+      "Dolby",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.",
+    "price": {
+      "standard": 340,
+      "premium": 480,
+      "recliner": 660
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BZGI5MjBmYzYtMzJhZi00NGI1LTk3MzItYjBjMzcxM2U3MDdiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+    "director": "Sergio Leone",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Henry Fonda, Charles Bronson, Claudia Cardinale, Jason Robards",
+    "stars": [
+      "Henry Fonda",
+      "Charles Bronson",
+      "Claudia Cardinale",
+      "Jason Robards"
+    ],
+    "metaScore": 80,
+    "votes": 302844,
+    "gross": "5,321,508",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "5:00 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Director Cut",
+            "soldOut": true
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

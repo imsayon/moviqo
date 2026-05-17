@@ -1,0 +1,137 @@
+{
+  "movie": {
+    "id": 109,
+    "title": "Lagaan: Once Upon a Time in India",
+    "genre": "Adventure",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Musical"
+    ],
+    "rating": 8.1,
+    "duration": "224 min",
+    "year": 2001,
+    "certificate": "U",
+    "lang": "Indian Cinema",
+    "region": "India",
+    "formats": [
+      "Director Cut",
+      "Dolby",
+      "Standard"
+    ],
+    "badge": "festival",
+    "badgeLabel": "Festival",
+    "description": "The people of a small village in Victorian India stake their future on a game of cricket against their ruthless British rulers.",
+    "price": {
+      "standard": 280,
+      "premium": 420,
+      "recliner": 600
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDYxNWUzZmYtOGQxMC00MTdkLTkxOTctYzkyOGIwNWQxZjhmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+    "director": "Ashutosh Gowariker",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Aamir Khan, Raghuvir Yadav, Gracy Singh, Rachel Shelley",
+    "stars": [
+      "Aamir Khan",
+      "Raghuvir Yadav",
+      "Gracy Singh",
+      "Rachel Shelley"
+    ],
+    "metaScore": 84,
+    "votes": 105036,
+    "gross": "70,147",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "4DX",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

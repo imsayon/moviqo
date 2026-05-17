@@ -1,0 +1,137 @@
+{
+  "movie": {
+    "id": 103,
+    "title": "PK",
+    "genre": "Comedy",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Musical"
+    ],
+    "rating": 8.1,
+    "duration": "153 min",
+    "year": 2014,
+    "certificate": "UA",
+    "lang": "Indian Cinema",
+    "region": "India",
+    "formats": [
+      "4DX",
+      "IMAX",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "An alien on Earth loses the only device he can use to communicate with his spaceship. His innocent nature and child-like questions force the country to evaluate the impact of religion on its people.",
+    "price": {
+      "standard": 300,
+      "premium": 440,
+      "recliner": 620
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTYzOTE2NjkxN15BMl5BanBnXkFtZTgwMDgzMTg0MzE@._V1_UX500_.jpg",
+    "director": "Rajkumar Hirani",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Aamir Khan, Anushka Sharma, Sanjay Dutt, Boman Irani",
+    "stars": [
+      "Aamir Khan",
+      "Anushka Sharma",
+      "Sanjay Dutt",
+      "Boman Irani"
+    ],
+    "metaScore": null,
+    "votes": 163061,
+    "gross": "10,616,104",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "10:20 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Director Cut",
+            "soldOut": true
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

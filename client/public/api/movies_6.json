@@ -1,0 +1,132 @@
+{
+  "movie": {
+    "id": 6,
+    "title": "The Lord of the Rings: The Return of the King",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "rating": 8.9,
+    "duration": "201 min",
+    "year": 2003,
+    "certificate": "U",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "IMAX",
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": "top-rated",
+    "badgeLabel": "Top Rated",
+    "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+    "price": {
+      "standard": 360,
+      "premium": 500,
+      "recliner": 680
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX500_.jpg",
+    "director": "Peter Jackson",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Elijah Wood, Viggo Mortensen, Ian McKellen, Orlando Bloom",
+    "stars": [
+      "Elijah Wood",
+      "Viggo Mortensen",
+      "Ian McKellen",
+      "Orlando Bloom"
+    ],
+    "metaScore": 94,
+    "votes": 1642758,
+    "gross": "377,845,905",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "4DX",
+            "soldOut": true
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          },
+          {
+            "time": "4:25 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

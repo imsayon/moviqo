@@ -1,0 +1,137 @@
+{
+  "movie": {
+    "id": 93,
+    "title": "Drishyam",
+    "genre": "Crime",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "rating": 8.3,
+    "duration": "160 min",
+    "year": 2013,
+    "certificate": "U",
+    "lang": "Indian Cinema",
+    "region": "India",
+    "formats": [
+      "4DX",
+      "IMAX",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "A man goes to extreme lengths to save his family from punishment after the family commits an accidental crime.",
+    "price": {
+      "standard": 240,
+      "premium": 380,
+      "recliner": 560
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BYmY3MzYwMGUtOWMxYS00OGVhLWFjNmUtYzlkNGVmY2ZkMjA3XkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_UX500_.jpg",
+    "director": "Jeethu Joseph",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Mohanlal, Meena, Asha Sharath, Ansiba",
+    "stars": [
+      "Mohanlal",
+      "Meena",
+      "Asha Sharath",
+      "Ansiba"
+    ],
+    "metaScore": null,
+    "votes": 30722,
+    "gross": null,
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Dolby Atmos",
+            "soldOut": true
+          }
+        ]
+      }
+    ]
+  }
+}

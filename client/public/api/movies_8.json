@@ -1,0 +1,132 @@
+{
+  "movie": {
+    "id": 8,
+    "title": "Schindler's List",
+    "genre": "Biography",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "rating": 8.9,
+    "duration": "195 min",
+    "year": 1993,
+    "certificate": "A",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "4DX",
+      "IMAX",
+      "Standard"
+    ],
+    "badge": "top-rated",
+    "badgeLabel": "Top Rated",
+    "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "price": {
+      "standard": 260,
+      "premium": 400,
+      "recliner": 580
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+    "director": "Steven Spielberg",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Liam Neeson, Ralph Fiennes, Ben Kingsley, Caroline Goodall",
+    "stars": [
+      "Liam Neeson",
+      "Ralph Fiennes",
+      "Ben Kingsley",
+      "Caroline Goodall"
+    ],
+    "metaScore": 94,
+    "votes": 1213505,
+    "gross": "96,898,818",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "4DX",
+            "soldOut": true
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

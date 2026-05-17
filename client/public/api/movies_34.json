@@ -1,0 +1,132 @@
+{
+  "movie": {
+    "id": 34,
+    "title": "Joker",
+    "genre": "Crime",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "rating": 8.5,
+    "duration": "122 min",
+    "year": 2019,
+    "certificate": "A",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Director Cut",
+      "Dolby",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+    "price": {
+      "standard": 320,
+      "premium": 460,
+      "recliner": 640
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX500_.jpg",
+    "director": "Todd Phillips",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Joaquin Phoenix, Robert De Niro, Zazie Beetz, Frances Conroy",
+    "stars": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz",
+      "Frances Conroy"
+    ],
+    "metaScore": 59,
+    "votes": 939252,
+    "gross": "335,451,311",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "4:25 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Director Cut",
+            "soldOut": true
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,15 +1,28 @@
-import "./app/styles.css";
+import {
+  auth,
+  signInWithGoogle,
+  logout,
+  createBooking,
+  getBookedSeats,
+  getBooking,
+  getReviews,
+  addReview
+} from "./firebase.js";
+import { onAuthStateChanged } from "firebase/auth";
 
-const API_BASE = import.meta.env.VITE_API_URL || "/api";
+const API_BASE = import.meta.env?.VITE_API_URL || "/api";
 const app = document.querySelector("#app");
 
 const state = {
   toastTimer: 0,
+  searchTimer: 0,
   movies: [],
   genres: ["All"],
   selectedGenre: "All",
+  search: "",
   selectedSeats: [],
   reviewRating: 0,
+  user: null,
   confetti: Array.from({ length: 44 }, (_, index) => ({
     id: index,
     left: `${Math.random() * 100}%`,
@@ -73,9 +86,21 @@ function formatBookingTimestamp(isoDate) {
 
 function calculateBookingTotal(movie, seats, seatConfig) {
   return seats.reduce((total, seatId) => {
-    const price = seatConfig.premiumRows.includes(seatId[0]) ? movie.price.premium : movie.price.standard;
-    return total + price;
+    return total + getSeatPrice(movie, seatId, seatConfig);
   }, seatConfig.bookingFee);
+}
+
+function getSeatTier(seatId, seatConfig) {
+  if (seatConfig.reclinerRows?.includes(seatId[0])) return "recliner";
+  if (seatConfig.premiumRows.includes(seatId[0])) return "premium";
+  return "standard";
+}
+
+function getSeatPrice(movie, seatId, seatConfig) {
+  const tier = getSeatTier(seatId, seatConfig);
+  if (tier === "recliner") return movie.price.recliner ?? movie.price.premium + 180;
+  if (tier === "premium") return movie.price.premium;
+  return movie.price.standard;
 }
 
 function escapeHtml(value = "") {
@@ -116,9 +141,12 @@ function logoMark(size = "regular") {
 
 function posterArt(movie, size = "card") {
   const initials = posterIcons[movie.title] || movie.title.slice(0, 2).toUpperCase();
+  const poster = movie.poster || "";
+  const posterStyle = movie.poster?.background ? `style="--poster-bg:${movie.poster.background}; --poster-glow:${movie.poster.glow}"` : "";
   return `
-    <div class="poster-art poster-${size}" style="--poster-bg:${movie.poster.background}; --poster-glow:${movie.poster.glow}">
+    <div class="poster-art poster-${size}" ${posterStyle}>
       <div class="poster-sheen"></div>
+      ${poster ? `<img src="${escapeHtml(poster)}" alt="${escapeHtml(movie.title)} poster" loading="lazy" onerror="this.remove(); this.parentElement.classList.add('poster-fallback');" />` : ""}
       <span class="poster-format">${escapeHtml(movie.formats?.[0] || movie.genre)}</span>
       <strong>${escapeHtml(initials)}</strong>
       <small>${escapeHtml(movie.genre)}</small>
@@ -129,6 +157,12 @@ function posterArt(movie, size = "card") {
 function shell(content) {
   app.innerHTML = `
     <div class="app-shell">
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>Now showing classics</span><span>India favorites</span><span>Global essentials</span><span>Fast seat booking</span>
+          <span>Now showing classics</span><span>India favorites</span><span>Global essentials</span><span>Fast seat booking</span>
+        </div>
+      </div>
       <div class="kinetic-bg" aria-hidden="true">
         <span></span><span></span><span></span>
       </div>
@@ -145,7 +179,20 @@ function shell(content) {
             <a href="/movie/1/seats?date=Today&time=10%3A30%20AM" data-link>Seats</a>
             <a href="#footer">Disclaimer</a>
           </nav>
-          <button class="nav-cta" type="button" data-route="/#now-showing">Browse films</button>
+          <div class="nav-auth-container">
+            ${state.user ? `
+              <div class="user-profile-menu">
+                <img src="${escapeHtml(state.user.photoURL)}" alt="Avatar" class="avatar" />
+                <span class="user-name">${escapeHtml(state.user.displayName)}</span>
+                <button class="logout-btn" id="nav-logout-btn">Sign Out</button>
+              </div>
+            ` : `
+              <button class="auth-btn login-btn" id="nav-login-btn">
+                <svg viewBox="0 0 24 24" class="google-icon" width="16" height="16"><path fill="#EA4335" d="M12 5.04c1.66 0 3.2.57 4.38 1.69l3.27-3.27C17.68 1.54 15.02 1 12 1 7.35 1 3.37 3.65 1.4 7.56l3.85 2.99c.9-2.7 3.4-4.51 6.75-4.51z"/><path fill="#4285F4" d="M23.49 12.27c0-.81-.07-1.59-.2-2.35H12v4.51h6.48c-.29 1.48-1.14 2.73-2.42 3.58v2.99h3.89c2.28-2.1 3.54-5.19 3.54-8.73z"/><path fill="#FBBC05" d="M5.25 14.56a7.1 7.1 0 0 1 0-4.12V7.45H1.4a11.96 11.96 0 0 0 0 10.1l3.85-2.99z"/><path fill="#34A853" d="M12 23c3.24 0 5.97-1.07 7.96-2.91l-3.89-2.99c-1.08.72-2.48 1.16-4.07 1.16-3.35 0-5.85-1.81-6.75-4.51H1.4v2.99C3.37 20.35 7.35 23 12 23z"/></svg>
+                Sign In
+              </button>
+            `}
+          </div>
         </div>
       </header>
       <main>${content}</main>
@@ -155,12 +202,12 @@ function shell(content) {
             ${logoMark("small")}
             <div>
               <strong>MOVIQO</strong>
-              <p>Fast movie discovery, showtime selection, live seats, reviews, and demo booking in one polished flow.</p>
+              <p>Next-generation cinema experience featuring rapid showtime selection, real-time interactive seat maps, and verified user ratings.</p>
             </div>
           </div>
           <div class="footer-note">
-            <span>Professional demo notice</span>
-            <strong>All data is for demo purposes; nothing is real.</strong>
+            <span>Copyright &copy; 2026 Moviqo Inc.</span>
+            <strong>All rights reserved. For showcase and testing purposes.</strong>
           </div>
         </div>
       </footer>
@@ -191,6 +238,34 @@ function bindGlobalEvents() {
       }
     });
   });
+
+  const loginBtn = document.querySelector("#nav-login-btn");
+  if (loginBtn) {
+    loginBtn.addEventListener("click", async () => {
+      loginBtn.disabled = true;
+      loginBtn.textContent = "Signing in...";
+      try {
+        await signInWithGoogle();
+        notify("Signed in successfully!", "success");
+      } catch (error) {
+        notify("Authentication failed.", "error");
+        loginBtn.disabled = false;
+        loginBtn.textContent = "Sign In";
+      }
+    });
+  }
+
+  const logoutBtn = document.querySelector("#nav-logout-btn");
+  if (logoutBtn) {
+    logoutBtn.addEventListener("click", async () => {
+      try {
+        await logout();
+        notify("Signed out successfully!", "info");
+      } catch (error) {
+        notify("Logout failed.", "error");
+      }
+    });
+  }
 }
 
 function loadingView(label = "Loading Moviqo...") {
@@ -219,9 +294,7 @@ function errorView(message, action = `<button class="primary-button" data-route=
 async function homePage() {
   loadingView("Loading tonight's films...");
   try {
-    const payload = await request(
-      `/movies${state.selectedGenre !== "All" ? `?genre=${encodeURIComponent(state.selectedGenre)}` : ""}`
-    );
+    const payload = await request("/movies.json");
     state.movies = payload.movies;
     state.genres = payload.genres;
     renderHome();
@@ -232,6 +305,22 @@ async function homePage() {
 
 function renderHome() {
   const movies = state.movies;
+  const query = state.search.trim().toLowerCase();
+  
+  const genreFiltered = state.selectedGenre === "All"
+    ? movies
+    : movies.filter((m) => 
+        m.genre && m.genre.split(",").map(g => g.trim().toLowerCase()).includes(state.selectedGenre.toLowerCase())
+      );
+
+  const visibleMovies = query
+    ? genreFiltered.filter((movie) =>
+        [movie.title, movie.director, movie.cast, movie.genre, movie.region]
+          .filter(Boolean)
+          .some((value) => String(value).toLowerCase().includes(query))
+      )
+    : genreFiltered;
+
   const spotlight = movies[0];
   const topRated = [...movies].sort((left, right) => right.rating - left.rating)[0];
   const averagePrice = movies.length
@@ -243,15 +332,15 @@ function renderHome() {
       <section class="hero">
         <div class="hero-copy reveal">
           <div class="logo-lockup">${logoMark("large")}<span>MOVIQO</span></div>
-          <p class="eyebrow">Movie ticket booking and reservation application</p>
-          <h1>Book the perfect seat before the opening frame lands.</h1>
-          <p class="hero-text">A simple booking app with a sharper cinema identity: expressive motion, responsive seats, showtime clarity, and in-app feedback with no browser prompts.</p>
+          <p class="eyebrow">CINEMATIC EXPERIENCE REDEFINED</p>
+          <h1>Discover great cinema and book cleanly.</h1>
+          <p class="hero-text">Experience seamless movie discovery, real-time interactive seat maps, and instant confirmed ticketing with our fully secure checkout flow.</p>
           <div class="hero-actions">
             <button class="primary-button" data-route="/#now-showing">Explore movies</button>
             ${spotlight ? `<button class="secondary-button" data-route="/movie/${spotlight.id}">Open spotlight</button>` : ""}
           </div>
           <div class="metrics">
-            <article><strong>${String(movies.length).padStart(2, "0")}</strong><span>Films</span></article>
+            <article><strong>${String(movies.length).padStart(2, "0")}</strong><span>Now showing</span></article>
             <article><strong>${formatCurrency(averagePrice)}</strong><span>Starting average</span></article>
             <article><strong>${topRated?.rating || "9.1"}</strong><span>Top score</span></article>
           </div>
@@ -265,20 +354,24 @@ function renderHome() {
           </div>
         </div>
       </section>
-
+ 
       <section class="experience-strip" id="experience">
-        <article><span>01</span><strong>Animated, touch-friendly browsing</strong></article>
-        <article><span>02</span><strong>Fast showtime and seat selection</strong></article>
-        <article><span>03</span><strong>Clean demo booking confirmation</strong></article>
+        <article><span>01</span><strong>Explore blockbuster releases</strong></article>
+        <article><span>02</span><strong>Select preferred showtimes & seats</strong></article>
+        <article><span>03</span><strong>Get instant verified tickets</strong></article>
       </section>
 
       <section class="showcase">
         <div class="section-heading" id="now-showing">
           <div>
             <p class="section-kicker">Now showing</p>
-            <h2>Choose a film and move straight into the booking flow.</h2>
+            <h2>Airing Indian and global cinema in one fast grid.</h2>
           </div>
-          <span class="count-pill">${movies.length} titles</span>
+          <span class="count-pill">${visibleMovies.length} titles</span>
+        </div>
+        <div class="search-bar">
+          <span>Search</span>
+          <input data-search type="search" value="${escapeHtml(state.search)}" placeholder="Search movies, directors, cast..." />
         </div>
         <div class="genre-row">
           ${state.genres
@@ -292,7 +385,7 @@ function renderHome() {
             .join("")}
         </div>
         <div class="movie-grid">
-          ${movies.map(movieCard).join("")}
+          ${visibleMovies.map(movieCard).join("") || `<div class="status-card compact-empty">No movies match this search.</div>`}
         </div>
       </section>
     </section>
@@ -301,9 +394,20 @@ function renderHome() {
   document.querySelectorAll("[data-genre]").forEach((button) => {
     button.addEventListener("click", () => {
       state.selectedGenre = button.dataset.genre;
+      state.search = "";
       homePage();
     });
   });
+  const searchInput = document.querySelector("[data-search]");
+  searchInput?.addEventListener("input", (event) => {
+    state.search = event.target.value;
+    window.clearTimeout(state.searchTimer);
+    state.searchTimer = window.setTimeout(renderHome, 180);
+  });
+  if (searchInput && state.search) {
+    searchInput.focus();
+    searchInput.setSelectionRange(searchInput.value.length, searchInput.value.length);
+  }
 }
 
 function movieCard(movie) {
@@ -315,6 +419,7 @@ function movieCard(movie) {
         <div>
           <h3>${escapeHtml(movie.title)}</h3>
           <p>${escapeHtml(movie.genre)} · ${escapeHtml(movie.duration)} · ${movie.year}</p>
+          <small>${escapeHtml(movie.director || "")}</small>
         </div>
         <div class="movie-meta">
           <span>★ ${movie.rating}</span>
@@ -328,7 +433,7 @@ function movieCard(movie) {
 async function detailPage(movieId) {
   loadingView("Opening movie detail...");
   try {
-    const { movie } = await request(`/movies/${movieId}`);
+    const { movie } = await request(`/movies_${movieId}.json`);
     renderDetail(movie);
   } catch (error) {
     errorView(error.message);
@@ -352,8 +457,11 @@ function renderDetail(movie) {
           <button class="rating-link" data-route="/movie/${movie.id}/reviews">★ ${movie.rating} / 10 · Reviews</button>
           <div class="stats-grid">
             <article><span>Director</span><strong>${escapeHtml(movie.director)}</strong></article>
-            <article><span>Language</span><strong>${escapeHtml(movie.lang)}</strong></article>
+            <article><span>Release</span><strong>${escapeHtml(movie.year)} · ${escapeHtml(movie.certificate || "UA")}</strong></article>
+            <article><span>Region</span><strong>${escapeHtml(movie.region || movie.lang)}</strong></article>
             <article><span>Cast</span><strong>${escapeHtml(movie.cast)}</strong></article>
+            <article><span>Audience votes</span><strong>${Number(movie.votes || 0).toLocaleString("en-IN")}</strong></article>
+            <article><span>Meta score</span><strong>${movie.metaScore || "Not listed"}</strong></article>
           </div>
           <p class="detail-description">${escapeHtml(movie.description)}</p>
         </div>
@@ -443,9 +551,23 @@ async function seatsPage(movieId, params) {
 
   loadingView("Loading live seat map...");
   try {
-    const payload = await request(`/movies/${movieId}/seats?${new URLSearchParams({ date, time })}`);
+    const { movie } = await request(`/movies_${movieId}.json`);
+    const bookedSeats = await getBookedSeats(movieId, date, time);
+    const activeDate = movie.showDates.find(d => d.key === date) || movie.showDates[0];
+    const activeSlot = activeDate?.slots?.find(s => s.time === time) || activeDate?.slots?.[0];
+    const format = activeSlot?.format || "Standard";
+    
+    const seatConfig = {
+      rows: ["A","B","C","D","E","F","G","H"],
+      cols: 12,
+      premiumRows: ["D","E","F"],
+      reclinerRows: ["G","H"],
+      bookingFee: 30,
+      maxSeatsPerBooking: 8
+    };
+
     state.selectedSeats = [];
-    renderSeats(payload.movie, payload.bookedSeats, payload.seatConfig, payload.format, date, time);
+    renderSeats(movie, bookedSeats, seatConfig, format, date, time);
   } catch (error) {
     errorView(error.message, `<button class="primary-button" data-route="/movie/${movieId}">Back to showtimes</button>`);
   }
@@ -456,7 +578,7 @@ function renderSeats(movie, bookedSeats, seatConfig, format, date, time) {
   shell(`
     <section class="page-pad seat-page">
       <button class="back-link" data-route="/movie/${movie.id}">Back to showtimes</button>
-      <div class="section-heading compact">
+      <div class="section-heading" id="seat-sel-heading">
         <div>
           <p class="section-kicker">Seat selection</p>
           <h1>${escapeHtml(movie.title)}</h1>
@@ -474,11 +596,11 @@ function renderSeats(movie, bookedSeats, seatConfig, format, date, time) {
                   ${Array.from({ length: seatConfig.cols }, (_, index) => {
                     const number = index + 1;
                     const seatId = `${row}${number}`;
-                    const premium = seatConfig.premiumRows.includes(row);
+                    const tier = seatConfig.reclinerRows?.includes(row) ? "recliner" : seatConfig.premiumRows.includes(row) ? "premium" : "standard";
                     const aisle = number === 5 || number === 9;
                     return `
                       <span class="seat-cell ${aisle ? "aisle-left" : ""}">
-                        <button class="seat ${premium ? "premium" : ""} ${booked.has(seatId) ? "booked" : ""}"
+                        <button class="seat ${tier} ${booked.has(seatId) ? "booked" : ""}"
                           aria-label="Seat ${seatId}" data-seat="${seatId}" ${booked.has(seatId) ? "disabled" : ""}></button>
                       </span>
                     `;
@@ -491,6 +613,7 @@ function renderSeats(movie, bookedSeats, seatConfig, format, date, time) {
           <div class="legend">
             <span><i class="seat-demo"></i> Available</span>
             <span><i class="seat-demo premium"></i> Premium</span>
+            <span><i class="seat-demo recliner"></i> Recliner</span>
             <span><i class="seat-demo selected"></i> Selected</span>
             <span><i class="seat-demo booked"></i> Booked</span>
           </div>
@@ -502,10 +625,15 @@ function renderSeats(movie, bookedSeats, seatConfig, format, date, time) {
 
   function syncSummary() {
     const total = state.selectedSeats.length ? calculateBookingTotal(movie, state.selectedSeats, seatConfig) : 0;
-    const premiumSeats = state.selectedSeats.filter((seat) => seatConfig.premiumRows.includes(seat[0]));
-    const standardSeats = state.selectedSeats.filter((seat) => !seatConfig.premiumRows.includes(seat[0]));
-    document.querySelector("[data-summary]").innerHTML = `
-      <div class="booking-head"><h2>Your booking</h2><span>Demo checkout</span></div>
+    const standardSeats = state.selectedSeats.filter((seat) => getSeatTier(seat, seatConfig) === "standard");
+    const premiumSeats = state.selectedSeats.filter((seat) => getSeatTier(seat, seatConfig) === "premium");
+    const reclinerSeats = state.selectedSeats.filter((seat) => getSeatTier(seat, seatConfig) === "recliner");
+    
+    const summaryEl = document.querySelector("[data-summary]");
+    if (!summaryEl) return;
+
+    summaryEl.innerHTML = `
+      <div class="booking-head"><h2>Your booking</h2><span>Instant locking</span></div>
       <div class="booking-movie">
         <div class="mini-poster">${posterArt(movie, "mini")}</div>
         <div><strong>${escapeHtml(movie.title)}</strong><p>${escapeHtml(date)} · ${escapeHtml(time)}</p><p>${escapeHtml(movie.lang)} · ${escapeHtml(format)}</p></div>
@@ -513,38 +641,79 @@ function renderSeats(movie, bookedSeats, seatConfig, format, date, time) {
       <div class="seat-chip-row">
         ${
           state.selectedSeats.length
-            ? state.selectedSeats.map((seat) => `<span class="seat-chip ${seatConfig.premiumRows.includes(seat[0]) ? "premium" : ""}">${seat}</span>`).join("")
+            ? state.selectedSeats.map((seat) => `<span class="seat-chip ${getSeatTier(seat, seatConfig)}">${seat}</span>`).join("")
             : `<span class="muted-copy">Tap seats on the map.</span>`
         }
       </div>
       <div class="price-block">
         <div class="price-line"><span>Standard</span><strong>${standardSeats.length} x ${formatCurrency(movie.price.standard)}</strong></div>
         <div class="price-line"><span>Premium</span><strong>${premiumSeats.length} x ${formatCurrency(movie.price.premium)}</strong></div>
+        <div class="price-line"><span>Recliner</span><strong>${reclinerSeats.length} x ${formatCurrency(movie.price.recliner ?? movie.price.premium + 180)}</strong></div>
         <div class="price-line"><span>Booking fee</span><strong>${formatCurrency(seatConfig.bookingFee)}</strong></div>
       </div>
       <div class="total-row"><span>Total</span><strong>${formatCurrency(total)}</strong></div>
-      <button class="primary-button full-width" data-confirm ${state.selectedSeats.length ? "" : "disabled"}>Confirm booking</button>
+      
+      ${state.user ? `
+        <button class="primary-button full-width" data-confirm ${state.selectedSeats.length ? "" : "disabled"}>Confirm booking</button>
+      ` : `
+        <div class="booking-auth-prompt">
+          <p>Please sign in with Google to lock in your seats and book tickets.</p>
+          <button class="auth-btn login-btn" id="booking-login-btn" type="button">
+            <svg viewBox="0 0 24 24" class="google-icon" width="16" height="16"><path fill="#EA4335" d="M12 5.04c1.66 0 3.2.57 4.38 1.69l3.27-3.27C17.68 1.54 15.02 1 12 1 7.35 1 3.37 3.65 1.4 7.56l3.85 2.99c.9-2.7 3.4-4.51 6.75-4.51z"/><path fill="#4285F4" d="M23.49 12.27c0-.81-.07-1.59-.2-2.35H12v4.51h6.48c-.29 1.48-1.14 2.73-2.42 3.58v2.99h3.89c2.28-2.1 3.54-5.19 3.54-8.73z"/><path fill="#FBBC05" d="M5.25 14.56a7.1 7.1 0 0 1 0-4.12V7.45H1.4a11.96 11.96 0 0 0 0 10.1l3.85-2.99z"/><path fill="#34A853" d="M12 23c3.24 0 5.97-1.07 7.96-2.91l-3.89-2.99c-1.08.72-2.48 1.16-4.07 1.16-3.35 0-5.85-1.81-6.75-4.51H1.4v2.99C3.37 20.35 7.35 23 12 23z"/></svg>
+            Sign In with Google
+          </button>
+        </div>
+      `}
     `;
-    document.querySelector("[data-confirm]").addEventListener("click", async () => {
-      if (!state.selectedSeats.length) {
-        notify("Select at least one seat.", "warn");
-        return;
-      }
-      const button = document.querySelector("[data-confirm]");
-      button.disabled = true;
-      button.textContent = "Confirming...";
-      try {
-        const payload = await request("/bookings", {
-          method: "POST",
-          body: JSON.stringify({ movieId: movie.id, date, showtime: time, seats: state.selectedSeats })
-        });
-        navigate(`/booking/${payload.booking.id}`);
-      } catch (error) {
-        notify(error.message, "error");
-        button.disabled = false;
-        button.textContent = "Confirm booking";
-      }
-    });
+
+    const confirmBtn = document.querySelector("[data-confirm]");
+    if (confirmBtn) {
+      confirmBtn.addEventListener("click", async () => {
+        if (!state.selectedSeats.length) {
+          notify("Select at least one seat.", "warn");
+          return;
+        }
+        confirmBtn.disabled = true;
+        confirmBtn.textContent = "Confirming...";
+        try {
+          const bookingData = {
+            movieId: movie.id,
+            movieTitle: movie.title,
+            date,
+            showtime: time,
+            selectedSeats: state.selectedSeats,
+            format,
+            total,
+            uid: state.user.uid,
+            displayName: state.user.displayName,
+            email: state.user.email,
+            bookedAt: new Date().toISOString()
+          };
+          const bookingResult = await createBooking(bookingData);
+          navigate(`/booking/${bookingResult.id}`);
+        } catch (error) {
+          notify("Booking failed: " + error.message, "error");
+          confirmBtn.disabled = false;
+          confirmBtn.textContent = "Confirm booking";
+        }
+      });
+    }
+
+    const bookingLoginBtn = document.querySelector("#booking-login-btn");
+    if (bookingLoginBtn) {
+      bookingLoginBtn.addEventListener("click", async () => {
+        bookingLoginBtn.disabled = true;
+        bookingLoginBtn.textContent = "Signing in...";
+        try {
+          await signInWithGoogle();
+          notify("Signed in! You can now confirm your booking.", "success");
+        } catch (error) {
+          notify("Authentication failed.", "error");
+          bookingLoginBtn.disabled = false;
+          bookingLoginBtn.textContent = "Sign In with Google";
+        }
+      });
+    }
   }
 
   document.querySelectorAll("[data-seat]").forEach((button) => {
@@ -569,7 +738,8 @@ function renderSeats(movie, bookedSeats, seatConfig, format, date, time) {
 async function bookingPage(bookingId) {
   loadingView("Fetching booking...");
   try {
-    const { booking } = await request(`/bookings/${bookingId}`);
+    const booking = await getBooking(bookingId);
+    const seatsList = booking.selectedSeats || booking.seats || [];
     shell(`
       <section class="page-pad confirmation-page">
         <div class="confetti-layer" aria-hidden="true">
@@ -583,13 +753,13 @@ async function bookingPage(bookingId) {
         <div class="confirmation-card">
           <p class="eyebrow">Booking confirmed</p>
           <h1>Your seats are locked in.</h1>
-          <p class="hero-text">This confirmation was created through the Express API with demo data only.</p>
+          <p class="hero-text">This confirmation was created securely via Firestore with live data.</p>
           <div class="ticket-card">
             ${[
-              ["Booking ID", booking.id],
+              ["Booking ID", bookingId],
               ["Movie", booking.movieTitle],
               ["Date & time", `${booking.date} · ${booking.showtime}`],
-              ["Seats", booking.seats.join(", ")],
+              ["Seats", seatsList.join(", ")],
               ["Format", booking.format],
               ["Booked on", formatBookingTimestamp(booking.bookedAt)],
               ["Total paid", formatCurrency(booking.total)]
@@ -613,7 +783,10 @@ async function bookingPage(bookingId) {
 async function reviewsPage(movieId) {
   loadingView("Loading reviews...");
   try {
-    const [{ movie }, reviewsData] = await Promise.all([request(`/movies/${movieId}`), request(`/movies/${movieId}/reviews`)]);
+    const [{ movie }, reviewsData] = await Promise.all([
+      request(`/movies_${movieId}.json`),
+      getReviews(movieId)
+    ]);
     renderReviews(movie, reviewsData);
   } catch (error) {
     errorView(error.message);
@@ -635,14 +808,24 @@ function renderReviews(movie, reviewsData) {
       <div class="reviews-content">
         <section class="glass-panel review-form-panel">
           <h2>Leave a review</h2>
-          <form class="review-form" data-review-form>
-            <label>Name<input name="author" maxlength="50" placeholder="Your name"></label>
-            <label>Rating<div class="star-rating-input">
-              ${[1, 2, 3, 4, 5].map((star) => `<button type="button" class="star-btn" data-star="${star}">★</button>`).join("")}
-            </div></label>
-            <label>Comment<textarea name="comment" maxlength="500" placeholder="What did you think?"></textarea></label>
-            <button class="primary-button" type="submit">Submit review</button>
-          </form>
+          ${state.user ? `
+            <form class="review-form" data-review-form>
+              <label>Name<input name="author" maxlength="50" value="${escapeHtml(state.user.displayName)}" placeholder="Your name" readonly></label>
+              <label>Rating<div class="star-rating-input">
+                ${[1, 2, 3, 4, 5].map((star) => `<button type="button" class="star-btn" data-star="${star}">★</button>`).join("")}
+              </div></label>
+              <label>Comment<textarea name="comment" maxlength="500" placeholder="What did you think?"></textarea></label>
+              <button class="primary-button" type="submit">Submit review</button>
+            </form>
+          ` : `
+            <div class="booking-auth-prompt">
+              <p>Please sign in to leave a review for this movie.</p>
+              <button class="auth-btn login-btn" id="review-login-btn" type="button">
+                <svg viewBox="0 0 24 24" class="google-icon" width="16" height="16"><path fill="#EA4335" d="M12 5.04c1.66 0 3.2.57 4.38 1.69l3.27-3.27C17.68 1.54 15.02 1 12 1 7.35 1 3.37 3.65 1.4 7.56l3.85 2.99c.9-2.7 3.4-4.51 6.75-4.51z"/><path fill="#4285F4" d="M23.49 12.27c0-.81-.07-1.59-.2-2.35H12v4.51h6.48c-.29 1.48-1.14 2.73-2.42 3.58v2.99h3.89c2.28-2.1 3.54-5.19 3.54-8.73z"/><path fill="#FBBC05" d="M5.25 14.56a7.1 7.1 0 0 1 0-4.12V7.45H1.4a11.96 11.96 0 0 0 0 10.1l3.85-2.99z"/><path fill="#34A853" d="M12 23c3.24 0 5.97-1.07 7.96-2.91l-3.89-2.99c-1.08.72-2.48 1.16-4.07 1.16-3.35 0-5.85-1.81-6.75-4.51H1.4v2.99C3.37 20.35 7.35 23 12 23z"/></svg>
+                Sign In with Google
+              </button>
+            </div>
+          `}
         </section>
         <section class="reviews-list">
           <h2>Reviews</h2>
@@ -677,27 +860,50 @@ function renderReviews(movie, reviewsData) {
     });
   });
 
-  document.querySelector("[data-review-form]").addEventListener("submit", async (event) => {
-    event.preventDefault();
-    const form = new FormData(event.currentTarget);
-    const author = String(form.get("author") || "").trim();
-    const comment = String(form.get("comment") || "").trim();
-    if (!author || state.reviewRating === 0) {
-      notify("Add your name and star rating first.", "warn");
-      return;
-    }
-    try {
-      await request(`/movies/${movie.id}/reviews`, {
-        method: "POST",
-        body: JSON.stringify({ author, rating: state.reviewRating, comment })
-      });
-      notify("Review added.", "success");
-      state.reviewRating = 0;
-      reviewsPage(movie.id);
-    } catch (error) {
-      notify(error.message, "error");
-    }
-  });
+  const reviewLoginBtn = document.querySelector("#review-login-btn");
+  if (reviewLoginBtn) {
+    reviewLoginBtn.addEventListener("click", async () => {
+      reviewLoginBtn.disabled = true;
+      reviewLoginBtn.textContent = "Signing in...";
+      try {
+        await signInWithGoogle();
+        notify("Signed in successfully!", "success");
+      } catch (error) {
+        notify("Authentication failed.", "error");
+        reviewLoginBtn.disabled = false;
+        reviewLoginBtn.textContent = "Sign In with Google";
+      }
+    });
+  }
+
+  const formEl = document.querySelector("[data-review-form]");
+  if (formEl) {
+    formEl.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const form = new FormData(event.currentTarget);
+      const author = String(form.get("author") || "").trim();
+      const comment = String(form.get("comment") || "").trim();
+      if (!author || state.reviewRating === 0) {
+        notify("Choose a star rating first.", "warn");
+        return;
+      }
+      try {
+        const reviewData = {
+          author,
+          rating: state.reviewRating,
+          comment,
+          uid: state.user.uid,
+          photoURL: state.user.photoURL
+        };
+        await addReview(movie.id, reviewData);
+        notify("Review added successfully!", "success");
+        state.reviewRating = 0;
+        reviewsPage(movie.id);
+      } catch (error) {
+        notify(error.message, "error");
+      }
+    });
+  }
 }
 
 function notFoundPage() {
@@ -721,4 +927,14 @@ function render() {
 }
 
 window.addEventListener("popstate", render);
-render();
+
+let authInitialized = false;
+onAuthStateChanged(auth, (user) => {
+  state.user = user;
+  if (!authInitialized) {
+    authInitialized = true;
+    render();
+  } else {
+    render();
+  }
+});

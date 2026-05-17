@@ -1,0 +1,136 @@
+{
+  "movie": {
+    "id": 107,
+    "title": "Munna Bhai M.B.B.S.",
+    "genre": "Comedy",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Musical"
+    ],
+    "rating": 8.1,
+    "duration": "156 min",
+    "year": 2003,
+    "certificate": "U",
+    "lang": "Indian Cinema",
+    "region": "India",
+    "formats": [
+      "Dolby Atmos",
+      "Standard"
+    ],
+    "badge": null,
+    "badgeLabel": null,
+    "description": "A gangster sets out to fulfill his father's dream of becoming a doctor.",
+    "price": {
+      "standard": 240,
+      "premium": 380,
+      "recliner": 560
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMzQ4MTBlYTQtMzJkYS00OGNjLTk1MWYtNzQ0OTQ0OWEyOWU1XkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_UX500_.jpg",
+    "director": "Rajkumar Hirani",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Sanjay Dutt, Arshad Warsi, Gracy Singh, Sunil Dutt",
+    "stars": [
+      "Sanjay Dutt",
+      "Arshad Warsi",
+      "Gracy Singh",
+      "Sunil Dutt"
+    ],
+    "metaScore": null,
+    "votes": 73992,
+    "gross": null,
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "IMAX",
+            "soldOut": true
+          }
+        ]
+      }
+    ]
+  }
+}

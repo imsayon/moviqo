@@ -1,0 +1,132 @@
+{
+  "movie": {
+    "id": 14,
+    "title": "The Lord of the Rings: The Two Towers",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "rating": 8.7,
+    "duration": "179 min",
+    "year": 2002,
+    "certificate": "UA",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "Director Cut",
+      "Dolby",
+      "Standard"
+    ],
+    "badge": "classic",
+    "badgeLabel": "Classic",
+    "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+    "price": {
+      "standard": 380,
+      "premium": 520,
+      "recliner": 700
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+    "director": "Peter Jackson",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Elijah Wood, Ian McKellen, Viggo Mortensen, Orlando Bloom",
+    "stars": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen",
+      "Orlando Bloom"
+    ],
+    "metaScore": 87,
+    "votes": 1485555,
+    "gross": "342,551,365",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Classic Screen",
+            "soldOut": true
+          },
+          {
+            "time": "6:05 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "Director Cut",
+            "soldOut": true
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "4DX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

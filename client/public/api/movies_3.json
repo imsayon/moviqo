@@ -1,0 +1,137 @@
+{
+  "movie": {
+    "id": 3,
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "rating": 9,
+    "duration": "152 min",
+    "year": 2008,
+    "certificate": "UA",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "4DX",
+      "IMAX",
+      "Standard"
+    ],
+    "badge": "top-rated",
+    "badgeLabel": "Top Rated",
+    "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "price": {
+      "standard": 300,
+      "premium": 440,
+      "recliner": 620
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX500_.jpg",
+    "director": "Christopher Nolan",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine",
+    "stars": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Michael Caine"
+    ],
+    "metaScore": 84,
+    "votes": 2303232,
+    "gross": "534,858,444",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "9:45 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "12:55 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "4:25 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "7:50 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "10:45 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "IMAX",
+            "soldOut": true
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

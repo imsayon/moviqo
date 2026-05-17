@@ -1,0 +1,132 @@
+{
+  "movie": {
+    "id": 28,
+    "title": "Se7en",
+    "genre": "Crime",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "rating": 8.6,
+    "duration": "127 min",
+    "year": 1995,
+    "certificate": "A",
+    "lang": "Global Cinema",
+    "region": "Global",
+    "formats": [
+      "4DX",
+      "IMAX",
+      "Standard"
+    ],
+    "badge": "festival",
+    "badgeLabel": "Festival",
+    "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+    "price": {
+      "standard": 340,
+      "premium": 480,
+      "recliner": 660
+    },
+    "poster": "https://m.media-amazon.com/images/M/MV5BOTUwODM5MTctZjczMi00OTk4LTg3NWUtNmVhMTAzNTNjYjcyXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX500_.jpg",
+    "director": "David Fincher",
+    "writer": "Curated top-rated cinema selection",
+    "cast": "Morgan Freeman, Brad Pitt, Kevin Spacey, Andrew Kevin Walker",
+    "stars": [
+      "Morgan Freeman",
+      "Brad Pitt",
+      "Kevin Spacey",
+      "Andrew Kevin Walker"
+    ],
+    "metaScore": 65,
+    "votes": 1445096,
+    "gross": "100,125,643",
+    "showDates": [
+      {
+        "key": "Today",
+        "label": "Today",
+        "dayOffset": 0,
+        "slots": [
+          {
+            "time": "12:10 PM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "3:40 PM",
+            "format": "Director Cut",
+            "soldOut": true
+          },
+          {
+            "time": "7:10 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "10:20 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Tomorrow",
+        "label": "Tomorrow",
+        "dayOffset": 1,
+        "slots": [
+          {
+            "time": "10:30 AM",
+            "format": "4DX",
+            "soldOut": true
+          },
+          {
+            "time": "1:45 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "5:00 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "8:15 PM",
+            "format": "IMAX",
+            "soldOut": false
+          },
+          {
+            "time": "11:10 PM",
+            "format": "Dolby Atmos",
+            "soldOut": false
+          }
+        ]
+      },
+      {
+        "key": "Wed",
+        "label": "Wed",
+        "dayOffset": 2,
+        "slots": [
+          {
+            "time": "11:00 AM",
+            "format": "4DX",
+            "soldOut": false
+          },
+          {
+            "time": "2:20 PM",
+            "format": "Director Cut",
+            "soldOut": false
+          },
+          {
+            "time": "6:05 PM",
+            "format": "Classic Screen",
+            "soldOut": false
+          },
+          {
+            "time": "9:30 PM",
+            "format": "IMAX",
+            "soldOut": false
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -4,6 +4,7 @@ import {
   COLS,
   MAX_SEATS_PER_BOOKING,
   PREMIUM_ROWS,
+  RECLINER_ROWS,
   ROWS,
   getMovieById,
   getMovieSummaries,
@@ -23,6 +24,34 @@ moviesRouter.get("/", (request, response) => {
     genres: listGenres(),
     movies: getMovieSummaries(genre)
   });
+});
+
+moviesRouter.get("/:movieId/poster", async (request, response, next) => {
+  try {
+    const movie = getMovieById(request.params.movieId);
+
+    if (!movie?.poster) {
+      const error = new Error("Poster not found.");
+      error.statusCode = 404;
+      return next(error);
+    }
+
+    const posterResponse = await fetch(movie.poster);
+    if (!posterResponse.ok) {
+      const error = new Error("Poster unavailable.");
+      error.statusCode = 502;
+      return next(error);
+    }
+
+    const contentType = posterResponse.headers.get("content-type") || "image/jpeg";
+    const imageBuffer = Buffer.from(await posterResponse.arrayBuffer());
+
+    response.setHeader("Content-Type", contentType);
+    response.setHeader("Cache-Control", "public, max-age=86400");
+    response.send(imageBuffer);
+  } catch (error) {
+    next(error);
+  }
 });
 
 moviesRouter.get("/:movieId", (request, response, next) => {
@@ -71,6 +100,7 @@ moviesRouter.get("/:movieId/seats", (request, response, next) => {
       rows: ROWS,
       cols: COLS,
       premiumRows: PREMIUM_ROWS,
+      reclinerRows: RECLINER_ROWS,
       bookingFee: BOOKING_FEE,
       maxSeatsPerBooking: MAX_SEATS_PER_BOOKING
     }

@@ -4,16 +4,31 @@
   "version": "1.0.0",
   "type": "module",
   "packageManager": "pnpm@10.18.3",
+  "description": "Movie booking platform with Firebase authentication and Firestore database",
+  "author": "Development Team",
+  "license": "MIT",
   "scripts": {
-    "dev": "concurrently -k -n server,client -c red,cyan \"pnpm --dir server dev\" \"pnpm --dir client dev\"",
-    "dev:server": "pnpm --dir server dev",
-    "dev:client": "pnpm --dir client dev",
+    "dev": "pnpm --dir server dev",
     "build": "pnpm --dir client build",
     "start": "pnpm build && pnpm --dir server start",
     "lint": "pnpm --dir client lint",
-    "clean": "rm -rf client/dist client/node_modules/.vite"
+    "clean": "rm -rf client/dist client/node_modules/.vite",
+    "firebase:init": "firebase init",
+    "firebase:rules": "firebase deploy --only firestore:rules",
+    "firebase:indexes": "firebase deploy --only firestore:indexes",
+    "firebase:deploy": "pnpm build && firebase deploy",
+    "firebase:deploy-prod": "NODE_ENV=production pnpm firebase:deploy",
+    "firebase:logs": "firebase functions:log",
+    "firebase:shell": "firebase firestore:shell",
+    "type-check": "tsc --noEmit"
   },
-  "devDependencies": {
-    "concurrently": "^8.2.2"
-  }
+  "devDependencies": {},
+  "keywords": [
+    "firebase",
+    "movie",
+    "booking",
+    "authentication",
+    "firestore",
+    "hosting"
+  ]
 }
