@@ -1,43 +1,6 @@
 # Moviqo - Movie Booking Platform
 
-A production-grade movie booking application built with **Firebase** for authentication, **Firestore** for the database, and **Firebase Hosting** for deployment.
-
-## 🎯 Features
-
-### Authentication
-- ✅ Google OAuth 2.0 sign-in
-- ✅ Automatic session persistence
-- ✅ Secure token management
-- ✅ User profile management
-
-### Database
-- ✅ Firestore real-time database
-- ✅ Secure data isolation per user
-- ✅ Automatic timestamps
-- ✅ Offline support (IndexedDB persistence)
-
-### Booking System
-- ✅ Create movie bookings
-- ✅ View booking history
-- ✅ Cancel bookings
-- ✅ Seat selection
-- ✅ Price calculation
-
-### Security
-- ✅ Firestore security rules
-- ✅ JWT token verification
-- ✅ CORS protection
-- ✅ Environment variable management
-- ✅ No sensitive data in Git
-
-### Hosting
-- ✅ Firebase Hosting (CDN)
-- ✅ Automatic HTTPS
-- ✅ SPA routing
-- ✅ Cache optimization
-- ✅ Global distribution
-
----
+A movie booking application.
 
 ## 🚀 Quick Start
 
